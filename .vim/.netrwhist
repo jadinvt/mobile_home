@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/jadavis/.virtualenvs/podcast_grabber/cast_grabber.py'
+let g:netrw_dirhist_2='/home/jadavis/sysconfig/fabfile'
+let g:netrw_dirhist_3='/home/jadavis/src/sysconfig/puppet/modules/comms_sites'
