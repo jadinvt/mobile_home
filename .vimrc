@@ -1,5 +1,8 @@
         " put this line first in ~/.vimrc
-        set nocompatible | filetype indent plugin on | syn on
+        set nocompatible " no compatibility with legacy vi 
+        filetype indent plugin on " load file type plugins + indentation
+        let mapleader=","
+        let maplocalleader=","
 
         fun! EnsureVamIsOnDisk(plugin_root_dir)
           " windows users may want to use http://mawercer.de/~marc/vam/index.php
@@ -52,7 +55,8 @@
 
           " Tell VAM which plugins to fetch & load:
           " sample: call vam#ActivateAddons(['pluginA','pluginB', ...], {'auto_install' : 0})
-          call vam#ActivateAddons(['nose','pytest','Flake8-vim','pydoc','vim-makegreen'], {'auto_install' : 0})
+          call vam#ActivateAddons(['nose','pytest','vim-makegreen','Flake8-vim','pydoc'], {'auto_install' : 0})
+          call vam#ActivateAddons(['snipmate'], {'auto_install' : 0})
 
           " Addons are put into plugin_root_dir/plugin-name directory
           " unless those directories exist. Then they are activated.
@@ -77,7 +81,8 @@
         " Vim 7.0 users see BUGS section [3]
 
 
-set nohlsearch
+set hlsearch
+set incsearch
 set ai
 set bg=dark
 set showmatch
@@ -95,16 +100,16 @@ set listchars=tab:>-
 set listchars+=trail:.
 set ignorecase
 set smartcase
-map <C-t><up> :tabr<cr>
-map <C-t><down> :tabl<cr>
-map <C-t><left> :tabp<cr>
-map <C-t><right> :tabn<cr>
+noremap <Leader>m :make<cr>
 set laststatus=2
 set hidden
 nnoremap <CR> :noh<CR><CR>
-filetype plugin indent on
 color evening
 
-set paste
 set ruler
+set showcmd
+set tags=~/.mytags
 let g:pyflakes_use_quickfix = 0
+autocmd BufNewFile,BufRead *.py compiler nose
+set foldmethod=indent
+set foldlevel=99

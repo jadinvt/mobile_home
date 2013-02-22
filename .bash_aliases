@@ -217,5 +217,5 @@ export PS1=$Color_Off'$(git branch &>/dev/null;\
 # Set terminal text color
 export PS1="$PS1\[\033[1;32m\]"
 #export PS1='\[\033[01;31m\]\w\[\033[00m\]\n${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\u\[\033[01;32m\]@\[\033[01;34m\]\h\[\033[00m\]\$ '
-
+export EDITOR=vim
 alias config='git --git-dir=/home/jadavis/.config.git/ --work-tree=/home/jadavis'
