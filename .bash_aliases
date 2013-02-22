@@ -110,7 +110,6 @@ Blue="\[\033[0;34m\]"         # Blue
 Purple="\[\033[0;35m\]"       # Purple
 Cyan="\[\033[0;36m\]"         # Cyan
 White="\[\033[0;37m\]"        # White
-
 # Bold
 BBlack="\[\033[1;30m\]"       # Black
 BRed="\[\033[1;31m\]"         # Red
@@ -200,19 +199,23 @@ __git_ps1 ()
 # This PS1 snippet was adopted from code for MAC/BSD I saw from: http://allancraig.net/index.php?option=com_content&view=article&id=108:ps1-export-command-for-git&catid=45:general&Itemid=96
 # I tweaked it to work on UBUNTU 11.04 & 11.10 plus made it mo' better
 
-export PS1=$IGreen$HostAlias$Color_Off'$(git branch &>/dev/null;\
+export PS1=$Color_Off'$(git branch &>/dev/null;\
         if [ $? -eq 0 ]; then \
         git_prompt=$(__git_ps1 "%s")
         echo "$(echo `git status` | grep "nothing to commit" > /dev/null 2>&1; \
         if [ "$?" -eq "0" ]; then \
 # @4 - Clean repository - nothing to commit
-        echo "'$Green'" \(${git_prompt:0:15}\); \
+        echo "'$Green'"\(${git_prompt:0:15}\);\
         else \
 # @5 - Changes to working tree
-        echo "'$IRed'" \{${git_prompt:0:15}\}; \
-        fi) '$BYellow$PathShort$Color_Off'\$ "; \
+        echo "'$IRed'"\{${git_prompt:0:15}\};\
+        fi) '$BYellow$PathShort$Color_Off' ";\
         else \
 # @2 - Prompt when not in GIT repo
-        echo " '$Yellow$PathShort$Color_Off'\$ "; \
-            fi)'
+        echo " '$Yellow$PathShort$Color_Off' "; \
+            fi)'$NewLine$BBlue$User$BGreen@$BBlue$HostAlias$IWhite\$\ 
+# Set terminal text color
+export PS1="$PS1\[\033[1;32m\]"
+#export PS1='\[\033[01;31m\]\w\[\033[00m\]\n${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\u\[\033[01;32m\]@\[\033[01;34m\]\h\[\033[00m\]\$ '
 
+alias config='git --git-dir=/home/jadavis/.config.git/ --work-tree=/home/jadavis'
