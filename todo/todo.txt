@@ -1,4 +1,8 @@
-laundry
+
 +testProject @testContext
-Laundry
+
 Go to the store
+"Plant garden"
+Move mulch +garden
+Weed beds +garden
+Complete todo git setup

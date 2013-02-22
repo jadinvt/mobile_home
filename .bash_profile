@@ -1,1 +1,6 @@
-alias config='git --git-dir=/home/jadavis/.config.git/ --work-tree=/home/jadavis'
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
