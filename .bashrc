@@ -2,10 +2,13 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 #
-alias wd='ssh webuser@web-dev'
-alias cd1='ssh webuser@cache-dev'
-alias md='ssh webuser@media-dev'
-alias pd='ssh webuser@proxy-dev'
+alias wd='ssh webuser@web1-dev'
+alias cd1='ssh webuser@cache1-dev'
+alias md='ssh webuser@media1-dev'
+alias pxd='ssh webuser@proxy1-dev'
+alias dd='ssh webuser@db1-dev'
+alias ud='ssh webuser@util1-dev'
+alias pd='ssh webuser@pub1-dev'
  
 alias ws1='ssh webuser@web1-stage'
 alias us1='ssh webuser@util1-stage'
@@ -48,8 +51,6 @@ alias nc='ssh webuser@nc'
 alias icrs='ssh webuser@icrs.dimensional.dev'
 alias icrss='ssh webuser@astdc-rpt1s'
 alias icrsp='ssh webuser@icrs.dimensional.com'
-alias dd='ssh webuser@db-dev'
-alias ud='ssh webuser@util-dev'
 
 alias vi='vim'
 export WORKON_HOME=~/.virtualenvs
@@ -173,8 +174,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-export WORKON_HOME=~/src
-source /usr/local/bin/virtualenvwrapper.sh
 alias t='todo.sh -d ~/etc/todo.cfg'
 export TODO_DIR=~/todo/
 complete -F _todo t
