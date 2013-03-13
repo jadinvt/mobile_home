@@ -53,8 +53,18 @@ alias icrss='ssh webuser@astdc-rpt1s'
 alias icrsp='ssh webuser@icrs.dimensional.com'
 
 alias vi='vim'
-export WORKON_HOME=~/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
+# Virtual Env
+# for virtualenv
+if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+    PY=~/.virtualenvs
+    export WORKON_HOME=$PY
+    export PIP_VIRTUALENV_BASE=$PY
+    export PIP_RESPECT_VIRTUALENV=true
+    export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--distribute'
+    export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
+    export VIRTUALENV_PROJECT_GIT_ROOT=${HOME}/src
+    source /usr/local/bin/virtualenvwrapper.sh
+fi
 #  Development env vars
 export INST_PATH=\/home\/jadavis\/httpd.jadavis
 export INST_USER=jadavis
