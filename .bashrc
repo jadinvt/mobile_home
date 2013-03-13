@@ -53,7 +53,10 @@ alias icrss='ssh webuser@astdc-rpt1s'
 alias icrsp='ssh webuser@icrs.dimensional.com'
 
 alias vi='vim'
-# Virtual Env
+
+# Timestamp history
+export HISTTIMEFORMAT='%F %T '
+
 # for virtualenv
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
     PY=~/.virtualenvs
