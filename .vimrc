@@ -110,6 +110,11 @@ set ruler
 set showcmd
 set tags=~/.mytags
 let g:pyflakes_use_quickfix = 0
+let g:pyflakes_autostart = 0
+map <F8> :PyFlakeToggle<cr>
+map <F5> :bprevious<CR>
+map <F6> :bnext<CR>
+map <F7> :bdelete<CR>
 autocmd BufNewFile,BufRead *.py compiler nose
 set foldmethod=indent
 set foldlevel=99
