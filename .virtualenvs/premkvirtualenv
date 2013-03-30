@@ -1,0 +1,39 @@
+#!/bin/bash
+# This hook is run after a new virtualenv is created and before it is activated.
+if [ -d $VIRTUALENV_PROJECT_GIT_ROOT ]; then
+
+    if [ -d ${HOME}/src/${1}/.git ]; then
+        echo “Git root already created”
+    else
+        
+        echo “Creating git root”
+        cd ${HOME}/src
+        result=`git clone git@github.com:/jadinvt/$1`
+        if [ "$result" != "ERROR: Repository not found." ]; then
+            echo "Creating fresh git repo"
+            mkdir ${HOME}/src/${1}/
+            cd ${HOME}/src/${1}/
+            git init
+            git remote add origin git@github.com:/jadinvt/$1
+        fi
+    fi
+
+    cd ${HOME}/src/${1}
+    # git init
+    # git remote add origin file://${VIRTUALENV_PROJECT_GIT_ROOT}/${1}.git
+    # git config branch.master.remote origin
+    # git config branch.master.merge refs/heads/master
+    # git pull
+
+    if [ -f .gitignore ]; then
+        echo ".gitignore already exists, skipping"
+    else
+        echo ".Python
+        .*.swp
+        *.py[co]" > .gitignore
+        git add .gitignore
+        git commit .gitignore -m "Add .gitignore"
+        git push origin master
+    fi
+fi
+
