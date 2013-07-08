@@ -191,4 +191,7 @@ function t() { ssh jalisa.zapto.org -p34000 /home/jadavis/bin/todo.sh -d ~/etc/t
 export TODO_DIR=~/todo/
 complete -F _todo t
 export PATH=$PATH:$HOME/bin
+if [ -f ~/.bashrc_local ]; then
+    source ~/.bashrc_local
+fi
 
