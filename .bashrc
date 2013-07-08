@@ -191,4 +191,7 @@ alias t='todo.sh -d ~/etc/todo.cfg'
 export TODO_DIR=~/todo/
 complete -F _todo t
 export PATH=$PATH:$HOME/bin
+if [ -f ~/.bashrc_local ]; then
+    source ~/.bashrc_local
+fi
 
