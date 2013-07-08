@@ -187,7 +187,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-alias t='todo.sh -d ~/etc/todo.cfg'
+function t() { ssh jalisa.zapto.org -p34000 /home/jadavis/bin/todo.sh -d ~/etc/todo.cfg $@;}
 export TODO_DIR=~/todo/
 complete -F _todo t
 export PATH=$PATH:$HOME/bin
