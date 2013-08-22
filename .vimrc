@@ -55,8 +55,7 @@
 
           " Tell VAM which plugins to fetch & load:
           " sample: call vam#ActivateAddons(['pluginA','pluginB', ...], {'auto_install' : 0})
-          call vam#ActivateAddons(['nose','pytest','vim-makegreen','Flake8-vim','pydoc'], {'auto_install' : 0})
-          call vam#ActivateAddons(['snipmate'], {'auto_install' : 0})
+          " call vam#ActivateAddons(['nose','pytest','vim-makegreen','Flake8-vim','pydoc'], {'auto_install' : 0})
 
           " Addons are put into plugin_root_dir/plugin-name directory
           " unless those directories exist. Then they are activated.
