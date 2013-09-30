@@ -2,56 +2,6 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 #
-alias wd='ssh webuser@web1-dev'
-alias cd1='ssh webuser@cache1-dev'
-alias md='ssh webuser@media1-dev'
-alias pxd='ssh webuser@proxy1-dev'
-alias dd='ssh webuser@db1-dev'
-alias ud='ssh webuser@util1-dev'
-alias pd='ssh webuser@pub1-dev'
- 
-alias ws1='ssh webuser@web1-stage'
-alias us1='ssh webuser@util1-stage'
-alias ds1='ssh webuser@db1-stage'
-alias cs1='ssh webuser@cache-stage'
-alias ms1='ssh webuser@media-stage'
-alias ps1='ssh webuser@proxy-stage'
-alias ws2='ssh webuser@web2-stage'
-alias us2='ssh webuser@util2-stage'
-alias ds2='ssh webuser@db2-stage'
-alias cs2='ssh webuser@cache-stage'
-alias ms2='ssh webuser@media-stage'
-alias ps2='ssh webuser@proxy-stage'
- 
-alias wp1='ssh webuser@web1-prod'
-alias up1='ssh webuser@util1-prod'
-alias dp1='ssh webuser@db1-prod'
-alias cp1='ssh webuser@cache-prod'
-alias mp1='ssh webuser@media-prod'
-alias pp1='ssh webuser@proxy-prod'
-alias wp2='ssh webuser@web2-prod'
-alias up2='ssh webuser@util2-prod'
-alias dp2='ssh webuser@db2-prod'
-alias cp2='ssh webuser@cache-prod'
-alias mp2='ssh webuser@media-prod'
-alias pp2='ssh webuser@proxy-prod'
-
-
-alias oh='ssh jadavis@oh'
-alias ri='ssh webuser@ri'
-alias or='ssh webuser@or'
-alias nv='ssh webuser@nv'
-alias wa='ssh webuser@wa'
-alias ks='ssh webuser@ks'
-alias co='ssh webuser@co'
-alias wy='ssh webuser@wy'
-alias id='ssh webuser@id'
-alias nm='ssh webuser@nm'
-alias nc='ssh webuser@nc'
-alias icrs='ssh webuser@icrs.dimensional.dev'
-alias icrss='ssh webuser@astdc-rpt1s'
-alias icrsp='ssh webuser@icrs.dimensional.com'
-
 alias vi='vim'
 
 # Timestamp history
@@ -157,15 +107,6 @@ alias la='ls -A'
 alias l='ls -CF'
 alias vi='vim'
 alias oh='ssh jadavis@oh'
-alias ri='ssh webuser@ri'
-alias or='ssh webuser@or'
-alias nv='ssh webuser@nv'
-alias wa='ssh webuser@wa'
-alias ks='ssh webuser@ks'
-alias co='ssh webuser@co'
-alias wy='ssh webuser@wy'
-alias id='ssh webuser@id'
-alias nm='ssh webuser@nm'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

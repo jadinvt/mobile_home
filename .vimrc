@@ -22,7 +22,7 @@
                           \"time ask maintainers to improve documentation")
               call mkdir(a:plugin_root_dir, 'p')
               execute '!git clone --depth=1 git://github.com/MarcWeber/vim-addon-manager '.
-                          \ shellescape(a:plugin_root_dir, 1).'/vim-addon-manager'
+                          \ shellescape(a:plugin_root_dir).'/vim-addon-manager'
               " VAM runs helptags automatically when you install or update
               " plugins
               exec 'helptags '.fnameescape(a:plugin_root_dir.'/vim-addon-manager/doc')
