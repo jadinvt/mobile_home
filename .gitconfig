@@ -1,3 +1,5 @@
 [user]
 	name = Jad
 	email = jadinvt@gmail.com
+[push]
+	default = simple
