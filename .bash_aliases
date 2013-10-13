@@ -1,3 +1,6 @@
+host=`hostname -s`
+# Could put custom switch in here to get nice prompt labels
+HostAlias=$host
 #  Customize BASH PS1 prompt to show current GIT repository and branch.
 #  by Mike Stewart - http://MediaDoneRight.com
 
