@@ -114,6 +114,7 @@ map <F8> :PyFlakeToggle<cr>
 map <F5> :bprevious<CR>
 map <F6> :bnext<CR>
 map <F7> :bdelete<CR>
+ino jj <esc>
+cno jj <c-c>
+vno v <esc>
 autocmd BufNewFile,BufRead *.py compiler nose
-set foldmethod=indent
-set foldlevel=99
