@@ -136,3 +136,6 @@ if [ -f ~/.bashrc_local ]; then
     source ~/.bashrc_local
 fi
 
+if [ -f ~/.git-completion.bash ]; then
+    . ~/.git-completion.bash
+fi
