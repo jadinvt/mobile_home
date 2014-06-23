@@ -2,4 +2,4 @@
 	name = Jad
 	email = jadinvt@gmail.com
 [push]
-	default = matching
+	default = current
