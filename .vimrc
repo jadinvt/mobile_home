@@ -118,4 +118,6 @@ map <F7> :bdelete<CR>
 ino jj <esc>
 cno jj <c-c>
 vno v <esc>
+set wildmode=longest,list,full
+set wildmenu
 autocmd BufNewFile,BufRead *.py compiler nose
