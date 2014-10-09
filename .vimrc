@@ -122,3 +122,4 @@ vno v <esc>
 set wildmode=longest,list
 set wildmenu
 autocmd BufNewFile,BufRead *.py compiler nose
+au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
