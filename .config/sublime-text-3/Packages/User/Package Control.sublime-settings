@@ -1,0 +1,25 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Blade Spacer",
+		"DocBlockr",
+		"GitGutter",
+		"Horizontal Scroll",
+		"Laravel 5 Artisan",
+		"Laravel 5 Snippets",
+		"Laravel Blade Highlighter",
+		"Package Control",
+		"Phpcs",
+		"PhpDoc",
+		"ScopeAlways",
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"SublimeLinter-phpcs",
+		"SublimeLinter-phplint",
+		"Sublimerge Pro",
+		"Vintageous"
+	]
+}

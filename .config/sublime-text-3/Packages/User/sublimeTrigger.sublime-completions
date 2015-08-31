@@ -1,0 +1,11 @@
+{
+        "scope": "text.html - source - meta.tag, punctuation.definition.tag.begin",
+
+        "completions":
+        [
+                { "trigger": "aj", "contents": "<a href=\"$1\" class=\"$2\">$0</a>" },
+                { "trigger": "di", "contents": "<div class=\"$1\"> \n$2\n</div>" },
+                { "trigger": "abbr", "contents": "<abbr>\n$0\n</abbr>" },
+                { "trigger": "acronym", "contents": "<acronym>$0</acronym>" }
+        ]
+}

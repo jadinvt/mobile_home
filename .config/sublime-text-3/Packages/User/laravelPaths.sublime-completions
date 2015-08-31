@@ -1,0 +1,9 @@
+{
+     "scope": "text.html.basic source.php.embedded.block.html",
+        "completions":
+        [
+                { "trigger": "ileq", "contents": "\\Illuminate\\Database\\Eloquent\\Relations\\"},
+                { "trigger": "abbr", "contents": "<abbr>$0</abbr>" },
+                { "trigger": "acronym", "contents": "<acronym>$0</acronym>" }
+        ]
+}
