@@ -3,3 +3,8 @@
 	email = jadinvt@gmail.com
 [push]
 	default = current
+[color "status"]
+	modified = green
+	changed = green
+	header = magenta bold
+	untracked = white

@@ -1,18 +1,30 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Facebook (SL).tmTheme",
 	"detect_indentation": false,
 	"ignored_packages":
 	[
 		"Sublimerge Pro"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_numbers": false,
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"margin": 0,
+	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
 		80,
 		120
 	],
 	"tab_size": 4,
+	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": false,
 	"vintage_ctrl_keys": true,
-	"vintage_start_in_command_mode": true
+	"vintage_start_in_command_mode": true,
+    "show_panel_on_build": false
 }

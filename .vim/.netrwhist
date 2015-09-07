@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/var/www/tools/license_renewal/include'
 let g:netrw_dirhist_2='/var/www/tools/admin_tool/include'
 let g:netrw_dirhist_3='/var/www/tools/admin_tool/modules/Form'
+let g:netrw_dirhist_4='/home/jadavis/repos/bms2-sandlot/vendor/way/generators'

@@ -6,6 +6,7 @@ alias vi='vim'
 
 # Timestamp history
 export HISTTIMEFORMAT='%F %T '
+export HISTFILE="${HOME}/.history/$(date -u +%Y/%m/%d.%H.%M.%S)_${HOSTNAME_SHORT}_$$"
 
 # for virtualenv
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
@@ -131,7 +132,7 @@ fi
 function t() { ssh jalisa.zapto.org -p34000 /home/jadavis/bin/todo.sh -d ~/etc/todo.cfg $@;}
 export TODO_DIR=~/todo/
 complete -F _todo t
-export PATH=$PATH:$HOME/bin
+export PATH=$PATH:$HOME/bin:$HOME/.composer/vendor/bin
 if [ -f ~/.bashrc_local ]; then
     source ~/.bashrc_local
 fi

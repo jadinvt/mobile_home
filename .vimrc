@@ -90,9 +90,9 @@ highlight SpecialKey ctermfg=DarkGray
 set listchars=tab:>-,trail:~
 set list
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 set autoindent
 set smartindent
