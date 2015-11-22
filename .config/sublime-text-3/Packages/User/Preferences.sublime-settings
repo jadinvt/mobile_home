@@ -1,6 +1,14 @@
 {
 	"color_scheme": "Packages/User/SublimeLinter/Facebook (SL).tmTheme",
 	"detect_indentation": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"bms2-sandlot/tests/bluemoon"
+	],
 	"ignored_packages":
 	[
 		"Sublimerge Pro"
@@ -20,11 +28,11 @@
 		80,
 		120
 	],
+	"show_panel_on_build": false,
 	"tab_size": 4,
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": false,
 	"vintage_ctrl_keys": true,
-	"vintage_start_in_command_mode": true,
-    "show_panel_on_build": false
+	"vintage_start_in_command_mode": true
 }

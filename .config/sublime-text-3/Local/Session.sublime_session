@@ -1,6 +1,8 @@
 {
 	"folder_history":
 	[
+		"/home/jadavis/repos/bms-esign",
+		"/home/jadavis/repos/homestead/structure",
 		"/home/jadavis/repos/bms2-sandlot/resources",
 		"/home/jadavis/repos/structure",
 		"/home/jadavis/repos/bluemoon-production",
@@ -11,17 +13,25 @@
 		"/home/jadavis/repos/deployment-mgr"
 	],
 	"last_version": 3083,
-	"last_window_id": 13,
+	"last_window_id": 40,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 480.0,
+		"new_window_height": 0.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"gener",
+						"generateDocuments"
+					],
+					[
+						"DATE",
+						"DATEASSOCSUBMITTED"
+					],
 					[
 						"file",
 						"field_attribute"
@@ -98,7 +108,7 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 392.0,
+				"height": 354.0,
 				"last_filter": "",
 				"selected_items":
 				[
@@ -123,7 +133,7 @@
 						":w - Save"
 					]
 				],
-				"width": 1016.0
+				"width": 521.0
 			},
 			"console":
 			{
@@ -145,18 +155,40 @@
 			},
 			"file_history":
 			[
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/soap_assoc.class.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/services_assoc.class.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/class.AssociationUser.php",
+				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/taa_license_renewal_db.class.php",
+				"/home/jadavis/repos/bluemoon-production/lib/User/class.EnterpriseUser.php",
+				"/home/jadavis/repos/bluemoon-production/bm2/packages/bluemoon/esignature/src/Http/Controllers/EventController.php",
+				"/home/jadavis/repos/bluemoon-production/bm2/packages/bluemoon/esignature/src/Observers/ESignerObserver.php",
+				"/home/jadavis/repos/bluemoon-production/bm2/packages/bluemoon/esignature/src/Libraries/Repositories/DbESignerRepository.php",
+				"/home/jadavis/.config/sublime-text-3/Packages/User/phpcs.sublime-settings",
 				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/print/esign.php",
-				"/home/jadavis/repos/bluemoon-production/config/log_level.php",
 				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/lease.class.php",
+				"/home/jadavis/repos/bluemoon-production/html/modules/controllers/class.PasswordReset.php",
+				"/home/jadavis/repos/bluemoon-production/cgi-bin/forms_online/global.php",
+				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/association.class.php",
+				"/home/jadavis/repos/bluemoon-production/lib/User/class.FormsOnlineUser.php",
+				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/services_assoc.class.php",
+				"/home/jadavis/repos/bluemoon-production/cgi-bin/configuration.php",
+				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/invoice.class.php",
+				"/home/jadavis/repos/bluemoon-production/jad/assoc_leg_test.php",
+				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/license_renewal/modules/Association/index.php",
+				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/license_renewal/modules/Association/survey.php",
+				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/association_db.class.php",
+				"/home/jadavis/repos/bluemoon-production/forms/fl/aptlease.dbd",
+				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/license_renewal/include/class.Association.php",
+				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/taa_license_renewal.class.php",
+				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/property.class.php",
+				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/password_reset/tools/internal_password_reset.php",
+				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/object_db.class.php",
 				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/forms_online_base.class.php",
+				"/home/jadavis/repos/bluemoon-production/cgi-bin/forms_online/email.php",
+				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/license_renewal/index.php",
+				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/soap_assoc.class.php",
+				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/class.AssociationUser.php",
+				"/home/jadavis/repos/bluemoon-production/config/log_level.php",
 				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/assoc_forms/modules/Association/history.php",
 				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/assoc_forms/include/class.User.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/association.class.php",
 				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/assoc_forms/config/config.php",
-				"/home/jadavis/repos/bluemoon-production/forms/fl/aptlease.dbd",
 				"/home/jadavis/repos/bluemoon-production/cgi-bin/forms_online/esign_generator.php",
 				"/home/jadavis/repos/bluemoon-production/cgi-bin/forms_online/print.php",
 				"/home/jadavis/repos/bluemoon-production/tools/forms_print/index.php",
@@ -171,14 +203,11 @@
 				"/home/jadavis/repos/bluemoon-sql/lib/Db/class.DbFormsOnlineUser.php",
 				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/services_base.class.php",
 				"/home/jadavis/repos/bluemoon-production/lib/class.BusinessObject.php",
-				"/home/jadavis/repos/bluemoon-production/lib/User/class.FormsOnlineUser.php",
 				"/home/jadavis/repos/bluemoon-sql/lib/Sql/class.SqlOfficeObject.php",
 				"/home/jadavis/repos/bluemoon-production/lib/Sql/class.SqlOfficeObject.php",
 				"/home/jadavis/repos/bluemoon-sql/lib/Db/class.ObjectDb.php",
 				"/home/jadavis/repos/bluemoon-production/lib/Order/class.ProductOrder.php",
-				"/home/jadavis/repos/bluemoon-production/html/modules/controllers/class.PasswordReset.php",
 				"/home/jadavis/repos/bluemoon-production/html/modules/controllers/class.Order.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/forms_online/global.php",
 				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/forms_online.class.php",
 				"/home/jadavis/repos/bluemoon-production/_private/navigation/navigation.main.php",
 				"/home/jadavis/repos/bluemoon-production/html/modules/templates/PasswordReset/reset.phtml",
@@ -204,7 +233,6 @@
 				"/home/jadavis/repos/bluemoon-sql/html/modules/templates/PasswordReset/index.phtml",
 				"/home/jadavis/repos/bluemoon-production/cgi-bin/products/forms_online/login.php",
 				"/home/jadavis/repos/bluemoon-production/lib/Sql/class.SqlEnterpriseUser.php",
-				"/home/jadavis/repos/bluemoon-production/lib/User/class.EnterpriseUser.php",
 				"/home/jadavis/repos/bluemoon-production/lib/Order/class.Order.php",
 				"/home/jadavis/repos/bluemoon-production/lib/FieldMap/class.MapAssociationUser.php",
 				"/home/jadavis/repos/bluemoon-production/lib/User/class.Vendor.php",
@@ -217,7 +245,6 @@
 				"/home/jadavis/repos/bluemoon-sql/lib/class.BusinessObject.php",
 				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/javascript/default.js",
 				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/lease_db/editor/index.php",
-				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/password_reset/tools/internal_password_reset.php",
 				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/lease_db/editor/editor.js.php",
 				"/home/jadavis/repos/bluemoon-production/_private/forms_online/email_password_reset_confirmation_enterprise.inc",
 				"/home/jadavis/repos/bluemoon-production/_private/forms_online/email_password_creation.inc",
@@ -231,12 +258,9 @@
 				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/order_forms/index.php",
 				"/home/jadavis/repos/bluemoon-production/lib/Utils/class.Mail.php",
 				"/home/jadavis/repos/bluemoon-production/jad/order_test.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/object_db.class.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/forms_online/email.php",
 				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/survey/index.php",
 				"/home/jadavis/repos/bluemoon-production/html/modules/controllers/class.AccountsUsers.php",
 				"/home/jadavis/repos/bluemoon-production/_private/products/forms_online/GA/GAA/email_customer.txt",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/configuration.php",
 				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/login.php",
 				"/home/jadavis/repos/bluemoon-production/local_config.php",
 				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/password_reset/modules/Password/index.php",
@@ -258,31 +282,33 @@
 				"/home/jadavis/repos/bluemoon-production/_private/billing/taa/taa_email_unit_survey.txt",
 				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/sys_config/manage_users/index.php",
 				"/home/jadavis/repos/bluemoon-sql/cgi-bin/classes/class.FormsOnlineUser.php",
-				"/home/jadavis/repos/bluemoon-sql/lib/User/class.UserFactory.php",
-				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/enterprise/javascript/default.js",
-				"/home/jadavis/repos/bluemoon-production/local_configuration/mailgun.php",
-				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/sys_config/change_pswd/index.php",
-				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/lease_db/index.php",
-				"/home/jadavis/repos/bluemoon-production/_private/navigation/navigation.settings.php",
-				"/home/jadavis/repos/bluemoon-production/_private/navigation/navigation.app.php",
-				"/home/jadavis/repos/bluemoon-production/jad/_private/navigation/navigation.settings.php",
-				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/lease_db/editor/editor.rules.php",
-				"/home/jadavis/repos/bluemoon-production/jad/user_test.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/enterprise_base.class.php",
-				"/home/jadavis/repos/bluemoon-production/lib/Framework/class.ModuleController.php",
-				"/home/jadavis/repos/bluemoon-production/lib/FieldMap/class.MapEnterpriseUser.php",
-				"/home/jadavis/repos/bluemoon-production/sql/dev/bluemoon_dev1/E_USERS.sql",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/enterprise.class.php"
+				"/home/jadavis/repos/bluemoon-sql/lib/User/class.UserFactory.php"
 			],
 			"find":
 			{
-				"height": 25.0
+				"height": 35.0
 			},
 			"find_in_files":
 			{
-				"height": 93.0,
+				"height": 158.0,
 				"where_history":
 				[
+					"/home/jadavis/repos/bluemoon-production/bm2",
+					"/home/jadavis/repos/bluemoon-production/html/products/forms_online/assoc_forms",
+					"/home/jadavis/repos/bluemoon-production,-/home/jadavis/repos/bluemoon-production/bm2",
+					"/home/jadavis/repos/bluemoon-production",
+					"/home/jadavis/repos/bluemoon-production/lib",
+					"/home/jadavis/repos/bluemoon-production/html",
+					"/home/jadavis/repos/bluemoon-production/cgi-bin",
+					"/home/jadavis/repos/bluemoon-production/lib",
+					"/home/jadavis/repos/bluemoon-production/html",
+					"/home/jadavis/repos/bluemoon-production/cgi-bin",
+					"/home/jadavis/repos/bluemoon-production",
+					"/home/jadavis/repos/bluemoon-production/cgi-bin/classes",
+					"/home/jadavis/repos/bluemoon-production/html/products",
+					"/home/jadavis/repos/bluemoon-production/cgi-bin/",
+					"/home/jadavis/repos/bluemoon-production/html",
+					"/home/jadavis/repos/bluemoon-production/cgi-bin",
 					"/home/jadavis/repos/bluemoon-production/cgi-bin/classes",
 					"/home/jadavis/repos/bluemoon-production",
 					"/home/jadavis/repos/bluemoon-production/cgi-bin/forms_online",
@@ -330,6 +356,29 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"soap_service",
+					"get_form_id",
+					"buildFormLayoutForSigner",
+					"no owner forms",
+					"no owner o",
+					"Key is part of a transaction with no owner forms",
+					"getAssociationP",
+					"event/document",
+					"FullAddress",
+					"E-signature Engine",
+					"sqlClass",
+					"email_password",
+					"unable to locate source document",
+					"MCRYPT_RIJNDAEL_128",
+					"mcrypt",
+					"global",
+					"get_outstanding_member_survey",
+					"reviewed_by_association",
+					"taa_license_renewal_db",
+					"taa_license_renewal.class.php",
+					"association_db",
+					"assciation_db",
+					"send_esign_resident_request",
 					"save_esign_signer_history",
 					"GetAssociationPDF",
 					"record_print_transaction",
@@ -449,9 +498,13 @@
 			},
 			"input":
 			{
-				"height": 33.0
+				"height": 68.0
 			},
 			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 168.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
@@ -459,7 +512,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 46.0
+				"height": 64.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -468,6 +521,146 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"services.cl",
+						"cgi-bin/classes/services.class.php"
+					],
+					[
+						"esisertes",
+						"bm2/tests/bluemoon/esignature/services/ESignatureServiceTest.php"
+					],
+					[
+						".env",
+						"bm2/.env"
+					],
+					[
+						"createdo",
+						"bm2/packages/bluemoon/esignature/src/Listeners/Events/CreateDocumentImages.php"
+					],
+					[
+						"esignsertest",
+						"bm2/tests/bluemoon/esignature/services/ESignatureServiceTest.php"
+					],
+					[
+						"edo",
+						"bm2/packages/bluemoon/esignature/src/Models/EDocument.php"
+					],
+					[
+						"obse",
+						"bm2/packages/bluemoon/esignature/src/Observers/ESignerObserver.php"
+					],
+					[
+						"",
+						"bm2/packages/bluemoon/esignature/src/Http/Controllers/EventController.php"
+					],
+					[
+						"confiesign",
+						"bm2/config/esignature.php"
+					],
+					[
+						"dbes",
+						"bm2/packages/bluemoon/esignature/src/Libraries/Repositories/DbESignerRepository.php"
+					],
+					[
+						"eventcon",
+						"bm2/packages/bluemoon/esignature/src/Http/Controllers/EventController.php"
+					],
+					[
+						"mailser",
+						"bm2/packages/bluemoon/esignature/src/Services/MailService.php"
+					],
+					[
+						"route",
+						"bm2/packages/bluemoon/esignature/src/Http/routes.php"
+					],
+					[
+						"evencon",
+						"bm2/packages/bluemoon/esignature/src/Http/Controllers/EventController.php"
+					],
+					[
+						"businessobj",
+						"lib/class.BusinessObject.php"
+					],
+					[
+						"esign.p",
+						"html/products/forms_online/print/esign.php"
+					],
+					[
+						"cgiclastra",
+						"cgi-bin/classes/transactions.class.php"
+					],
+					[
+						"/forms_online/print/esign.php",
+						"html/products/forms_online/print/esign.php"
+					],
+					[
+						"taa_",
+						"cgi-bin/classes/taa_license_renewal_db.class.php"
+					],
+					[
+						"association.class",
+						"cgi-bin/classes/association.class.php"
+					],
+					[
+						"services_assoc.cl",
+						"cgi-bin/classes/services_assoc.class.php"
+					],
+					[
+						"cgicon",
+						"cgi-bin/configuration.php"
+					],
+					[
+						"formsonlinglobal",
+						"cgi-bin/forms_online/global.php"
+					],
+					[
+						"internal",
+						"html/products/forms_online/password_reset/tools/internal_password_reset.php"
+					],
+					[
+						"taa_licerenew",
+						"cgi-bin/classes/taa_license_renewal.class.php"
+					],
+					[
+						"property.class.php",
+						"cgi-bin/classes/property.class.php"
+					],
+					[
+						"invoice",
+						"cgi-bin/classes/invoice.class.php"
+					],
+					[
+						"taa_lice",
+						"cgi-bin/classes/taa_license_renewal_db.class.php"
+					],
+					[
+						"property.class",
+						"cgi-bin/classes/property.class.php"
+					],
+					[
+						"proforlicemodasssur",
+						"html/products/forms_online/license_renewal/modules/Association/survey.php"
+					],
+					[
+						"proformlicemodasso",
+						"html/products/forms_online/license_renewal/modules/Association/index.php"
+					],
+					[
+						"produformsliceindex",
+						"html/products/forms_online/license_renewal/index.php"
+					],
+					[
+						"object_db",
+						"cgi-bin/classes/object_db.class.php"
+					],
+					[
+						"asso_leg",
+						"jad/assoc_leg_test.php"
+					],
+					[
+						"license_renewassociatio",
+						"html/products/forms_online/license_renewal/include/class.Association.php"
+					],
 					[
 						"esign.php",
 						"html/products/forms_online/print/esign.php"
@@ -567,10 +760,6 @@
 					[
 						"factory",
 						"lib/User/class.UserFactory.php"
-					],
-					[
-						"",
-						"lib/User/class.AssociationUser.php"
 					],
 					[
 						"class.userfactory",
@@ -797,10 +986,6 @@
 						"cgi-bin/global.php"
 					],
 					[
-						"internal",
-						"html/products/forms_online/password_reset/tools/internal_password_reset.php"
-					],
-					[
 						"intern",
 						"cgi-bin/products/forms_online/order_segments/internet_account_info.php"
 					],
@@ -847,138 +1032,6 @@
 					[
 						"email_",
 						"_private/forms_online/email_password_creation.inc"
-					],
-					[
-						"contact.php",
-						"html/modules/controllers/class.Contact.php"
-					],
-					[
-						"class.conta",
-						"html/modules/controllers/class.Contact.php"
-					],
-					[
-						"formsonlineuser.php",
-						"lib/User/class.FormsOnlineUser.php"
-					],
-					[
-						"email_pass",
-						"_private/forms_online/email_password_creation.inc"
-					],
-					[
-						"class.order",
-						"lib/Order/class.Order.php"
-					],
-					[
-						"order",
-						"jad/order_test.php"
-					],
-					[
-						"class.cont",
-						"html/modules/controllers/class.Contact.php"
-					],
-					[
-						"usermanag",
-						"lib/User/class.UserManager.php"
-					],
-					[
-						"class.formsonline",
-						"lib/User/class.FormsOnlineUser.php"
-					],
-					[
-						"class.formsonlineuser",
-						"lib/User/class.FormsOnlineUser.php"
-					],
-					[
-						"html/mod/temppassinde",
-						"html/modules/templates/PasswordReset/index.phtml"
-					],
-					[
-						"controllers/password",
-						"html/modules/controllers/class.PasswordReset.php"
-					],
-					[
-						"cgi-bin/products/for/email",
-						"cgi-bin/products/forms_online/email.php"
-					],
-					[
-						"forms_onlineemail",
-						"cgi-bin/forms_online/email.php"
-					],
-					[
-						"class.mail.",
-						"lib/Utils/class.Mail.php"
-					],
-					[
-						"class.contac",
-						"html/modules/controllers/class.Contact.php"
-					],
-					[
-						"inter",
-						"html/products/forms_online/password_reset/tools/internal_password_reset.php"
-					],
-					[
-						"class.conatct",
-						"html/modules/controllers/class.Contact.php"
-					],
-					[
-						"class.mail.php",
-						"lib/Utils/class.Mail.php"
-					],
-					[
-						"class.b",
-						"lib/class.BusinessObject.php"
-					],
-					[
-						"htmlmodulesclass.account",
-						"html/modules/controllers/class.AccountsUsers.php"
-					],
-					[
-						"busines",
-						"lib/class.BusinessObject.php"
-					],
-					[
-						"survey/in",
-						"html/products/forms_online/survey/index.php"
-					],
-					[
-						"mail",
-						"lib/Utils/class.Mail.php"
-					],
-					[
-						"email_password_reset",
-						"_private/forms_online/email_password_reset.inc"
-					],
-					[
-						"config",
-						"cgi-bin/configuration.php"
-					],
-					[
-						"local",
-						"local_config.php"
-					],
-					[
-						"sqlformson",
-						"lib/Sql/class.SqlFormsOnlineUser.php"
-					],
-					[
-						"sqloffic",
-						"lib/Sql/class.SqlOfficeObject.php"
-					],
-					[
-						"businessobje",
-						"lib/class.BusinessObject.php"
-					],
-					[
-						"class.usermanager",
-						"lib/User/class.UserManager.php"
-					],
-					[
-						"modulespasswordreset",
-						"html/modules/controllers/class.PasswordReset.php"
-					],
-					[
-						"password_resetindex",
-						"html/products/forms_online/password_reset/modules/Password/index.php"
 					]
 				],
 				"width": 0.0
@@ -994,12 +1047,20 @@
 			},
 			"select_symbol":
 			{
-				"height": 0.0,
-				"last_filter": "",
+				"height": 354.0,
+				"last_filter": "documwas",
 				"selected_items":
 				[
+					[
+						"documwas",
+						"DocumentWasExecuted"
+					],
+					[
+						"emailex",
+						"EmailExecutedNotice"
+					]
 				],
-				"width": 0.0
+				"width": 1301.0
 			},
 			"show_minimap": true,
 			"show_open_files": false,
@@ -1011,7 +1072,7 @@
 			{
 			}
 		},
-		"new_window_width": 640.0
+		"new_window_width": 0.0
 	},
 	"windows":
 	[
@@ -1021,12 +1082,472 @@
 				"selected_items":
 				[
 					[
-						"ESIGN_",
-						"ESIGN_USE_HISTORY"
+						"esignId",
+						"esignTokenId"
+					],
+					[
+						"FORM",
+						"FORMPAGES"
+					],
+					[
+						"redi",
+						"redirectToLegacyPortal	(WorkflowController.php)"
+					],
+					[
+						"Redirect",
+						"Redirect::to	Redirect to URL, Route or Controller"
+					],
+					[
+						"docum",
+						"documentId"
+					],
+					[
+						"SI",
+						"SIGNEDINITIALS"
+					],
+					[
+						"G",
+						"GUARANTOR	(ESignatureService.php)"
+					],
+					[
+						"signerR",
+						"signerRolesConfig"
+					],
+					[
+						"Full",
+						"FullAddress	(AddressBuilder.php)"
+					],
+					[
+						"Ad",
+						"Addressbuilder"
+					],
+					[
+						"email",
+						"emailDict"
+					],
+					[
+						"emai",
+						"emailDict"
+					],
+					[
+						"Config",
+						"Config::get	Get the specified configuration value."
+					],
+					[
+						"Q",
+						"QueuedListener	(EmailInitialNotice.php)"
+					],
+					[
+						"meth",
+						"method_exists"
+					],
+					[
+						"dco",
+						"document"
+					],
+					[
+						"debug",
+						"debug_print_backtrace"
+					],
+					[
+						"signersM",
+						"signersMockArray"
+					],
+					[
+						"e",
+						"exactly"
+					],
+					[
+						"ESIGNCONA",
+						"ESIGNCONTACTNAME	(MailService.php)"
+					],
+					[
+						"RE",
+						"RESIDEN1	(ESignatureTestCase.php)"
+					],
+					[
+						"createSi",
+						"createSignersMocks"
+					],
+					[
+						"getSi",
+						"getSignersRoleOrdered	(ESignatureService.php)"
+					],
+					[
+						"eSgi",
+						"eSignService"
+					],
+					[
+						"getDocu",
+						"getDocumentModel"
+					],
+					[
+						"Bus",
+						"BusinessObject"
+					],
+					[
+						"createBasic",
+						"createBasicBusinessObjectMock	(ESignatureTestCase.php)"
+					],
+					[
+						"asso",
+						"association"
+					],
+					[
+						"getA",
+						"getAssociation	(MailService.php)"
+					],
+					[
+						"createSignerMo",
+						"createSignerModelMock	(ESignatureTestCase.php)"
+					],
+					[
+						"RESI",
+						"RESIDEN1"
+					],
+					[
+						"documen",
+						"documentMock"
+					],
+					[
+						"do",
+						"documentModelMock"
+					],
+					[
+						"load",
+						"loadGetEmailDictionary"
+					],
+					[
+						"rec",
+						"recipientKey"
+					],
+					[
+						"esS",
+						"eSignServiceMock"
+					],
+					[
+						"eSignS",
+						"eSignServiceMock"
+					],
+					[
+						"create",
+						"createDocumentMock"
+					],
+					[
+						"sign",
+						"signerRoles"
+					],
+					[
+						"eSi",
+						"eSignEmailServ"
+					],
+					[
+						"createDo",
+						"createDocumentModelMock"
+					],
+					[
+						"getDo",
+						"getDocumentData"
+					],
+					[
+						"num",
+						"numSigners"
+					],
+					[
+						"eS",
+						"eSignEmailServ"
+					],
+					[
+						"esi",
+						"eSignEmailServ"
+					],
+					[
+						"si",
+						"signersBo"
+					],
+					[
+						"var",
+						"var_dump"
+					],
+					[
+						"dou",
+						"documentMock"
+					],
+					[
+						"bui",
+						"BusinessObject"
+					],
+					[
+						"docume",
+						"documentMock"
+					],
+					[
+						"cl",
+						"className"
+					],
+					[
+						"cre",
+						"createBasicClassMock"
+					],
+					[
+						"EDo",
+						"EDocument"
+					],
+					[
+						"getD",
+						"getDocumentModel	(MailService.php)"
+					],
+					[
+						"ess",
+						"eSigServiceMock"
+					],
+					[
+						"eSig",
+						"eSigServiceMock"
+					],
+					[
+						"Mail",
+						"MailService"
+					],
+					[
+						"ES",
+						"ESignatureService"
+					],
+					[
+						"ESi",
+						"ESignatureService"
+					],
+					[
+						"DB_MYSQL_APP",
+						"DB_MYSQL_APP_PASSWORD"
+					],
+					[
+						"DB_MYSQL_APP_",
+						"DB_MYSQL_APP_USERNAME"
+					],
+					[
+						"recip",
+						"recipient"
+					],
+					[
+						"array_ke",
+						"array_key_exists"
+					],
+					[
+						"esignatu",
+						"esignature	(routes.php)"
+					],
+					[
+						"E",
+						"ESigner	(routes.php)"
+					],
+					[
+						"ED",
+						"EDocument"
+					],
+					[
+						"ownerI",
+						"ownerInitials"
+					],
+					[
+						"SIG",
+						"SIGNEDINITIALS	(WorkflowController.php)"
+					],
+					[
+						"blue",
+						"bluemoonforms	(esignature.php)"
+					],
+					[
+						"save",
+						"saveSignatureInitials	(WorkflowController.php)"
+					],
+					[
+						"ESign",
+						"ESignatureService	(MailService.php)"
+					],
+					[
+						"Do",
+						"DocumentWasExecuted"
+					],
+					[
+						"jad",
+						"jad@bluemoonforms"
+					],
+					[
+						"le",
+						"legacyApp	(MailService.php)"
+					],
+					[
+						"pdfLink",
+						"pdfLinkExpires"
+					],
+					[
+						"Date",
+						"DateTime"
+					],
+					[
+						"paper",
+						"paperless	(MailService.php)"
+					],
+					[
+						"D",
+						"DATESIGNED"
+					],
+					[
+						"Log",
+						"Log::warning	Log a warning message to the logs."
+					],
+					[
+						"edo",
+						"edocumentNumber"
+					],
+					[
+						"getF",
+						"getFormLayout"
+					],
+					[
+						"Lo",
+						"Log::debug	Log a debug message to the logs."
+					],
+					[
+						"renta",
+						"rentalAppLink	(MailService.php)"
+					],
+					[
+						"getS",
+						"getSignersToEmail"
+					],
+					[
+						"Ev",
+						"Event::fire	Fire an event and call the listeners."
+					],
+					[
+						"esign",
+						"esignserv"
+					],
+					[
+						"eSign",
+						"eSignEmailServ"
+					],
+					[
+						"form",
+						"formDict"
+					],
+					[
+						"buil",
+						"buildFormLayoutForSigner"
+					],
+					[
+						"docu",
+						"documentKey"
+					],
+					[
+						"ESI",
+						"ESIGN_USE_ID"
+					],
+					[
+						"Blu",
+						"BluemoonMailService"
+					],
+					[
+						"debu",
+						"debug_print_backtrace"
+					],
+					[
+						"getE",
+						"getSignersToEmail"
+					],
+					[
+						"O",
+						"OWNER_ESIGN_USE_ID"
+					],
+					[
+						"busin",
+						"businessObject"
+					],
+					[
+						"DB",
+						"DbEDocumentRepository"
+					],
+					[
+						"tag",
+						"targetNonOwnerList"
+					],
+					[
+						"asserte",
+						"assertTrue"
+					],
+					[
+						"debug_",
+						"debug_print_backtrace"
+					],
+					[
+						"is",
+						"is_a"
+					],
+					[
+						"isS",
+						"isSignerBusinessObject"
 					],
 					[
 						"Con",
-						"Config::get	Get the specified configuration value."
+						"Controllers"
+					],
+					[
+						"Elo",
+						"EloquentModel"
+					],
+					[
+						"sig",
+						"signers"
+					],
+					[
+						"eD",
+						"eDocumentModel"
+					],
+					[
+						"propert",
+						"propertyKey"
+					],
+					[
+						"ed",
+						"edocumentObj"
+					],
+					[
+						"B",
+						"BusinessObject"
+					],
+					[
+						"to",
+						"toBusinessObject"
+					],
+					[
+						"asse",
+						"asse	assertEquals"
+					],
+					[
+						"assert",
+						"assertEquals"
+					],
+					[
+						"retu",
+						"returnModel"
+					],
+					[
+						"ESIGN_",
+						"ESIGN_USE_ID"
+					],
+					[
+						"pre",
+						"preg_match"
+					],
+					[
+						"L",
+						"Log::info	Log an informational message to the logs."
+					],
+					[
+						"bluemoon",
+						"bluemoonforms_dev1"
 					],
 					[
 						"C",
@@ -1041,16 +1562,8 @@
 						"getSignerData"
 					],
 					[
-						"sign",
-						"signerRepos"
-					],
-					[
 						"PRO",
 						"PROPERTYNUMBER"
-					],
-					[
-						"Log",
-						"Log::error	Log an error message to the logs."
 					],
 					[
 						"ESigner",
@@ -1061,16 +1574,8 @@
 						"doc_s	Function Signature"
 					],
 					[
-						"Lo",
-						"LocalAssociationFactory"
-					],
-					[
 						"local",
 						"localAssociationId"
-					],
-					[
-						"getS",
-						"getSqlReposClass"
 					],
 					[
 						"A",
@@ -1085,48 +1590,199 @@
 						"conditions"
 					],
 					[
-						"debug",
-						"debug_backtrace"
-					],
-					[
 						"seri",
-						"serialNumber"
-					],
-					[
-						"sys",
-						"sys_config_sections"
-					],
-					[
-						"userCl",
-						"userClassPath"
-					],
-					[
-						"column",
-						"columnAttributeMap"
-					],
-					[
-						"ser",
 						"serialNumber"
 					]
 				]
 			},
 			"buffers":
 			[
+				{
+					"contents": "Package Control Messages\n========================\n\nMaterial Theme\n--------------\n\n  Material Theme for Sublime Text 3\n  https://github.com/equinusocio/material-theme\n  \n  \n  Version 1.9.1\n  ********************************************************************************\n  \n  #### COLOR SCHEME\n  \n    - New Oceanic Next based color schemes ( Material-Theme-OceanicNext.tmTheme, Material-Theme-Darker-OceanicNext.tmTheme )\n    - BABEL JS color scheme improvements\n    - Fix JSON color scheme\n",
+					"settings":
+					{
+						"buffer_size": 491,
+						"line_ending": "Unix",
+						"name": "Package Control Messages",
+						"read_only": true,
+						"scratch": true
+					}
+				}
 			],
-			"build_system": "",
+			"build_system": "Packages/User/builds/psr2.sublime-build",
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						],
+						[
+							"Packages/User/builds/psr2.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/builds/psr2.sublime-build",
+						""
+					]
+				]
 			],
 			"build_varint": "",
 			"command_palette":
 			{
 				"height": 354.0,
-				"last_filter": "toggle tab",
+				"last_filter": "",
 				"selected_items":
 				[
 					[
+						"tenant",
+						"GitGutter: Show Comparing Against"
+					],
+					[
+						"getset",
+						"Generate Getter and Setter for ..."
+					],
+					[
+						"togglet",
+						"View: Toggle Tabs"
+					],
+					[
+						"get set",
+						"PHP: Generate Getters and Setters"
+					],
+					[
 						"toggle tab",
 						"View: Toggle Tabs"
+					],
+					[
+						"sniff",
+						"PHP Code Sniffer: Sniff this file"
+					],
+					[
+						"View:toggl",
+						"View: Toggle Tabs"
+					],
+					[
+						"sublimelinter",
+						"Preferences: SublimeLinter Key Bindings – Default"
+					],
+					[
+						"packagecon",
+						"Package Control: List Packages"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"sublim",
+						"SublimeLinter: Show All Errors"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"generate",
+						"Generate Getter and Setter for ..."
+					],
+					[
+						"phprefa",
+						"PHPSimpleRefactor: extract current lines to method"
+					],
+					[
+						"pca",
+						"Package Control: Install Package"
+					],
+					[
+						"phpcompan",
+						"PHPCompanion:Find Use"
+					],
+					[
+						"toggle ta",
+						"View: Toggle Tabs"
+					],
+					[
+						"getter",
+						"PHP: Generate Getters"
+					],
+					[
+						"Snippet: asse",
+						"Snippet: assertEquals"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"phpcompanion",
+						"PHPCompanion:Expand Fully Qualified Class Name"
+					],
+					[
+						"impo",
+						"PHPCompanion:Import Namespace"
+					],
+					[
+						"phpcomp",
+						"PHPCompanion:Import Namespace"
+					],
+					[
+						"compan",
+						"PHPCompanion:Insert Constructor Property"
+					],
+					[
+						"php",
+						"PHPCompanion:Insert Constructor Property"
+					],
+					[
+						"phpunit",
+						"PHPUnit: Run with params"
+					],
+					[
+						"phpcom",
+						"PHPCompanion:Insert Constructor Property"
+					],
+					[
+						"const",
+						"PHPCompanion:Insert Constructor Property"
+					],
+					[
+						"packi",
+						"Package Control: Install Package"
+					],
+					[
+						"php com",
+						"PHPCompanion:Expand Fully Qualified Class Name"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"toggle ",
+						"View: Toggle Status Bar"
+					],
+					[
+						"anf",
+						"ANF: Rename File"
 					],
 					[
 						"status",
@@ -1145,20 +1801,12 @@
 						"Colorsublime: Install Theme"
 					],
 					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
 						"pcak",
 						"Package Control: Install Package"
 					],
 					[
 						"esign",
 						"Snippet: Designate that the column allows NULL values"
-					],
-					[
-						"toggle ",
-						"Toggle ScopeAlways"
 					],
 					[
 						"Snippet: doc",
@@ -1209,7 +1857,7 @@
 						":w - Save"
 					]
 				],
-				"width": 998.0
+				"width": 803.0
 			},
 			"console":
 			{
@@ -1232,148 +1880,178 @@
 			},
 			"expanded_folders":
 			[
-				"/home/jadavis/repos/bluemoon-production"
+				"/home/jadavis/repos/bms-esign"
 			],
 			"file_history":
 			[
-				"/home/jadavis/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Http/routes.php",
-				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Models/ESigner.php",
-				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Models/ESignerHistory.php",
+				"/home/jadavis/repos/bms-esign/app/Observers/EDocumentObserver.php",
+				"/home/jadavis/repos/bms-esign/app/Observers/ESignerObserver.php",
+				"/home/jadavis/repos/bms-esign/app/Exceptions/BmsException.php",
+				"/home/jadavis/repos/bms-esign/app/Http/Controllers/WorkflowController.php",
+				"/home/jadavis/repos/bms-esign/app/Exceptions/HttpException.php",
+				"/home/jadavis/repos/bms-esign/app/Services/ESignatureService.php",
+				"/home/jadavis/repos/bms-esign/tests/bluemoon/esignature/services/ESignatureServiceTest.php",
+				"/home/jadavis/repos/bms-esign/app/Http/Controllers/EventController.php",
+				"/home/jadavis/repos/bms-esign/app/Libraries/Repositories/DbESignerRepository.php",
+				"/home/jadavis/repos/bms-esign/app/Libraries/Repositories/IESignerRepository.php",
+				"/home/jadavis/repos/bms-esign/config/bluemoon.php",
+				"/home/jadavis/repos/bms-esign/config/esignature.php",
+				"/home/jadavis/repos/bms-esign/packages/bluemoon/formdesigner/src/Http/routes.php",
+				"/home/jadavis/repos/bms-esign/app/Http/routes.php",
+				"/home/jadavis/repos/bms-esign/tests/bluemoon/esignature/services/MailServiceTest.php",
 				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Http/Controllers/WorkflowController.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/taa_license_renewal.class.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/property.class.php",
-				"/home/jadavis/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-				"/home/jadavis/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+				"/home/jadavis/repos/bms-esign/app/Libraries/Libraries/Repositories/DbESignerRepository.php",
+				"/home/jadavis/repos/bms-esign/tests/bluemoon/esignature/services/PDFConversionServiceTest.php",
+				"/home/jadavis/repos/bms-esign/tests/bluemoon/esignature/models/ESignerTest.php",
+				"/home/jadavis/repos/bms-esign/tests/bluemoon/esignature/models/EDocumentTest.php",
+				"/home/jadavis/repos/bms-esign/app/Models/ESignPDF.php",
+				"/home/jadavis/repos/bms-esign/app/Models/File.php",
+				"/home/jadavis/repos/bms-esign/app/Models/ESignerHistory.php",
+				"/home/jadavis/repos/bms-esign/app/Providers/AppServiceProvider.php",
+				"/home/jadavis/repos/bms-esign/tests/bluemoon/esignature/ESignatureTestCase.php",
+				"/home/jadavis/repos/bms-esign/app/Exceptions/HandlerExtendTrait.php",
+				"/home/jadavis/repos/bms-esign/app/Http/Controllers/EDocumentController.php",
+				"/home/jadavis/repos/bms-esign/app/Http/Controllers/ESignerController.php",
+				"/home/jadavis/repos/bms-esign/app/Models/ESignUseImages.php",
+				"/home/jadavis/repos/bms-esign/app/Services/MailService.php",
+				"/home/jadavis/repos/bms-esign/resources/views/complete.blade.php",
+				"/home/jadavis/repos/bms-esign/resources/views/disclosure.blade.php",
+				"/home/jadavis/repos/bms-esign/resources/views/email/executed.blade.php",
+				"/home/jadavis/repos/bms-esign/resources/views/email/initiated.blade.php",
+				"/home/jadavis/repos/bms-esign/resources/views/email/readyToExecute.blade.php",
+				"/home/jadavis/repos/bms-esign/resources/views/email/sign.blade.php",
+				"/home/jadavis/repos/bms-esign/resources/views/email/submitted.blade.php",
+				"/home/jadavis/repos/bms-esign/resources/views/formthumbnail.blade.php",
+				"/home/jadavis/repos/bms-esign/resources/views/setup.blade.php",
+				"/home/jadavis/repos/bms-esign/resources/views/themes/Default/master.blade.php",
+				"/home/jadavis/repos/bms-esign/resources/views/welcome.blade.php",
+				"/home/jadavis/repos/bms-esign/storage/framework/views/190511c5c773c112ebb31b8fdc057946",
+				"/home/jadavis/repos/bms-esign/storage/framework/views/7f75d5cb7d103337f424b8bc52dbdc98",
+				"/home/jadavis/repos/bms-esign/storage/framework/views/982ee44cef1c8bf00de72d7698e77bd5",
+				"/home/jadavis/repos/bms2-sandlot/app/Services/MailService.php",
+				"/home/jadavis/repos/bms-esign/app/Http/Controllers/WelcomeController.php",
+				"/home/jadavis/repos/bms-esign/config/app.php",
+				"/home/jadavis/repos/bms-esign/app/Events/DocumentImagesWereCreated.php",
+				"/home/jadavis/repos/bms-esign/app/Events/DocumentWasCreated.php",
+				"/home/jadavis/repos/bms-esign/app/Events/DocumentWasExecuted.php",
+				"/home/jadavis/repos/bms-esign/app/Events/DocumentWasSigned.php",
+				"/home/jadavis/repos/bms-esign/app/Exceptions/Handler.php",
+				"/home/jadavis/repos/bms-esign/app/Http/Controllers/Controller.php",
+				"/home/jadavis/repos/bms-esign/packages/bluemoon/esignature/src/helpers/helpers.php",
+				"/home/jadavis/repos/bms-esign/config/database.php",
+				"/home/jadavis/repos/bms-esign/config/cache.php",
+				"/home/jadavis/repos/bms-esign/packages/bluemoon/esignature/src/Providers/EventServiceProvider.php",
+				"/home/jadavis/repos/bms-esign/app/Libraries/Libraries/Constants.php",
+				"/home/jadavis/repos/bms-esign/app/Libraries/Libraries/Repositories/DbEDocumentRepository.php",
+				"/home/jadavis/repos/bms-esign/app/Libraries/Libraries/Repositories/IEDocumentRepository.php",
+				"/home/jadavis/repos/bms-esign/app/Libraries/Libraries/Repositories/IESignerRepository.php",
+				"/home/jadavis/repos/bms-esign/app/Libraries/Libraries/Repositories/IPropertyRespository.php",
+				"/home/jadavis/repos/bms-esign/app/Libraries/Libraries/Traits/WorkflowTrait.php",
+				"/home/jadavis/repos/bms-esign/app/Listeners/Events/CreateDocumentImages.php",
+				"/home/jadavis/repos/bms-esign/app/Listeners/Events/EmailExecutedNotice.php",
+				"/home/jadavis/repos/bms-esign/app/Listeners/Events/EmailInitialNotice.php",
+				"/home/jadavis/repos/bms-esign/app/Listeners/Events/EmailSignatureNotice.php",
+				"/home/jadavis/repos/bms-esign/app/Listeners/Events/EmailSubmissionConfirmation.php",
+				"/home/jadavis/repos/bms-esign/app/Listeners/Events/Listener.php",
+				"/home/jadavis/repos/bms-esign/app/Listeners/Events/QueuedListener.php",
+				"/home/jadavis/repos/bms-esign/app/Listeners/Events/SaveOwnerSignature.php",
+				"/home/jadavis/repos/bms-esign/app/Models/EDocument.php",
+				"/home/jadavis/repos/bms-esign/app/Models/ESigner.php",
+				"/home/jadavis/repos/bms-esign/app/Models/Property.php",
+				"/home/jadavis/repos/bms-esign/app/Providers/ConstantsServiceProvider.php",
+				"/home/jadavis/repos/bms-esign/app/Providers/ESignatureServiceProvider.php",
+				"/home/jadavis/repos/bms-esign/app/Providers/EventServiceProvider.php",
+				"/home/jadavis/repos/bms-esign/app/Providers/ObserverServiceProvider.php",
+				"/home/jadavis/repos/bms-esign/app/Services/PDFConversionService.php",
+				"/home/jadavis/repos/bms-esign/app/Services/SVGFontService.php",
+				"/home/jadavis/repos/bms-esign/app/Services/WorkflowService.php",
 				"/home/jadavis/repos/bms2-sandlot/.env",
-				"/home/jadavis/repos/bluemoon-production/jad/assoc_leg_test.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/association_db.class.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/esig/2015_08_27_150444_ESIGN_USE_HISTORY.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/esig/2015_08_28_194014_add_columns_to_ESIGN_USE.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/esig/2015_08_24_142151_create_ASSOCIATIONS_table.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/esig/2015_08_20_191514_add_foreign_keys_to_ESIGN_SPECIAL_FORMS_PRODUCT_USE_table.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/esig/2015_08_24_153905_create_CUSTOMER_table.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/esig/2015_08_24_153905_create_PROPERTY_table.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/esig/2015_08_20_163815_create_ESIGN_table.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/esig/2015_08_20_163817_add_foreign_keys_to_ESIGN_table.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/esig/2015_08_20_191509_create_ESIGN_SPECIAL_FORMS_PRODUCT_USE_table.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/esig/2015_08_20_191509_create_ESIGN_SPECIAL_FORMS_USE_table.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/esig/2015_08_20_191509_create_ESIGN_SPECIAL_FORMS_table.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/esig/2015_08_20_191509_create_ESIGN_USE_table.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/esig/2015_08_20_191514_add_foreign_keys_to_ESIGN_SPECIAL_FORMS_USE_table.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/esig/2015_08_20_191514_add_foreign_keys_to_ESIGN_USE_table.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/esig/2015_08_24_153908_add_foreign_keys_to_CUSTOMER_table.php",
-				"/home/jadavis/repos/bms2-sandlot/config/database.php",
-				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/resources/views/themes/Default/master.blade.php",
-				"/home/jadavis/repos/bms2-sandlot/resources/views/layouts/master.blade.php",
-				"/home/jadavis/repos/bms2-sandlot/tests/CustomerTest.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Models/Property.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Models/Customer.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Models/Form.php",
 				"/home/jadavis/repos/bms2-sandlot/config/bluemoon.php",
-				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Models/EDocument.php",
-				"/home/jadavis/repos/bms2-sandlot/tests/BasicTest.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/2015_08_20_163815_create_ESIGN_table.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/2015_08_27_150444_ESIGN_USE_HISTORY.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/forms_online/AANC/signers.ini.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/forms_online/GAA/signers.ini.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/forms_online/NAA/signers.ini.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/forms_online/TAA/signers.ini.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/forms_online/TSSA/signers.ini.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/lease.class.php",
-				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Http/Controllers/EDocumentController.php",
-				"/home/jadavis/repos/bms2-sandlot/resources/views/layouts/footer.blade.php",
-				"/home/jadavis/repos/bms2-sandlot/resources/views/layouts/head.blade.php",
-				"/home/jadavis/.config/sublime-text-3/Packages/User/phpcs.sublime-settings",
-				"/home/jadavis/.config/sublime-text-3/Packages/Phpcs/phpcs.sublime-settings",
-				"/home/jadavis/repos/bms2-sandlot/resources/views/layouts/header.blade.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Http/routes.php",
-				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Libraries/Repositories/DbEDocumentRepository.php",
-				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Libraries/Repositories/DbESignerRepository.php",
 				"/home/jadavis/repos/bms2-sandlot/config/app.php",
-				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Http/Controllers/HomeController.php",
-				"/home/jadavis/repos/bms2-sandlot/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
-				"/home/jadavis/repos/bms2-sandlot/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
-				"/home/jadavis/repos/bms2-sandlot/packages/myibase/src/Eloquent/Model.php",
-				"/home/jadavis/repos/bms2-sandlot/tests/ESignerTest.php",
-				"/home/jadavis/repos/bms2-sandlot/tests/TestCase.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/2015_08_24_153905_create_CUSTOMER_table.php",
-				"/home/jadavis/repos/bms2-sandlot/composer.json",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/resources/views/complete.blade.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Providers/EventServiceProvider.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Libraries/Repositories/DbEDocumentRepository.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Observers/EDocumentObserver.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Models/EDocument.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Services/MailService.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Models/ESigner.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/tests/services/MailServiceTest.php",
+				"/home/jadavis/repos/bms2-sandlot/config/cache.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Listeners/Events/SaveOwnerSignature.php",
+				"/home/jadavis/repos/bms2-sandlot/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php",
+				"/home/jadavis/repos/bms2-sandlot/config/queue.php",
 				"/home/jadavis/repos/bms2-sandlot/phpunit.xml",
-				"/home/jadavis/repos/bms2-sandlot/tests/ExampleTest.php",
-				"/home/jadavis/repos/bluemoon-production/cgi-bin/classes/forms_online_base.class.php",
-				"/home/jadavis/repos/bms2-sandlot/app/IbaseModels/Customer.php",
-				"/home/jadavis/repos/bms2-sandlot/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php",
-				"/home/jadavis/repos/homestead/Laravel/learning-laravel-5/composer.json",
-				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Libraries/Repositories/IEDocumentRepository.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/2015_08_24_142151_create_ASSOCIATIONS_table.php",
-				"/home/jadavis/repos/bms2-sandlot/database/factories/ModelFactory.php",
-				"/home/jadavis/repos/homestead/Laravel/learning-laravel-5/vendor/laravel/framework/src/Illuminate/Foundation/Console/AppNameCommand.php",
-				"/home/jadavis/repos/bms2-sandlot/vendor/laravel/framework/src/Illuminate/Foundation/Console/AppNameCommand.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/2015_05_11_141116_create__Property_table.php",
-				"/home/jadavis/repos/bms2-sandlot/vendor/phpunit/phpunit/src/Framework/CodeCoverageException.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Customer.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Property.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Customers.php",
-				"/home/jadavis/repos/bms2-sandlot/config/generators.php",
-				"/home/jadavis/repos/bms2-sandlot/app/templates/scaffolding/model.txt",
-				"/home/jadavis/repos/bms2-sandlot/app/templates/model.txt",
-				"/home/jadavis/repos/bms2-sandlot/vendor/way/generators/src/config/config.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/2015_08_24_154044_create_properties_table.php",
-				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Providers/EsignatureServiceProvider.php",
-				"/home/jadavis/repos/bms2-sandlot/vendor/way/generators/src/Way/Generators/templates/scaffolding/model.txt",
-				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Http/Controllers/ESignerController.php",
-				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Libraries/Repositories/IPropertyRespository.php",
-				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Libraries/Repositories/IESignerRepository.php",
-				"/home/jadavis/repos/bms2-sandlot/storage/logs/laravel-2015-08-24.log",
-				"/home/jadavis/repos/bms2-sandlot/storage/logs/laravel-2015-08-20.log",
-				"/home/jadavis/repos/bms2-sandlot/storage/logs/laravel-2015-08-21.log",
-				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Libraries/Repositories/EDocumentRepositoryInterface.php",
-				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Libraries/Repositories/ESignerRepositoryInterface.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Providers/AppServiceProvider.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Http/Controllers/ESignerController.php",
-				"/home/jadavis/repos/bms2-sandlot/app/bms/helpers/HtmlHelperBuilder.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Providers/BmsHelperServiceProvider.php",
-				"/home/jadavis/repos/bms2-sandlot/resources/views/esignature/esigner/index.blade.php",
-				"/home/jadavis/repos/bms2-sandlot/app/EDocument.php",
-				"/home/jadavis/repos/bms2-sandlot/app/SpecialESignForms.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Http/Controllers/EDocumentController.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Repositories/ESignerRepositoryInterface.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Repositories/DbESignerRepository.php",
-				"/home/jadavis/repos/bms2-sandlot/resources/views/index.blade.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Repositories/DbEDocumentRepository.php",
-				"/home/jadavis/repos/bms2-sandlot/app/ESigner.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Repositories/EDocumentRepositoryInterface.php",
-				"/home/jadavis/repos/bms2-sandlot/vendor/way/generators/src/Way/Generators/templates/scaffolding/controller.txt",
-				"/home/jadavis/repos/bms2-sandlot/vendor/way/generators/src/Way/Generators/templates/controller.txt",
-				"/home/jadavis/repos/bms2-sandlot/vendor/way/generators/src/Way/Generators/templates/migration.txt",
-				"/home/jadavis/repos/bms2-sandlot/vendor/way/generators/src/Way/Generators/templates/model.txt",
-				"/home/jadavis/repos/bms2-sandlot/vendor/way/generators/src/Way/Generators/templates/schema.txt",
-				"/home/jadavis/repos/bms2-sandlot/vendor/way/generators/src/Way/Generators/templates/seed.txt",
-				"/home/jadavis/repos/bms2-sandlot/resources/views/edocument/index.blade.php",
-				"/home/jadavis/repos/bms2-sandlot/database/migrations/2015_08_20_191937_create_e_documents_table.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Http/Controllers/WelcomeController.php",
-				"/home/jadavis/repos/bms2-sandlot/vendor/composer/autoload_real.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Bms/Repositories/DbESignerRepository.php",
-				"/home/jadavis/repos/bms2-sandlot/app/bms/Repositories/ESignerRepositoryInterface.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Http/Controllers/ESign/ESignerController.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Http/Controllers/ESign/EDocumentController.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Providers/EventServiceProvider.php",
-				"/home/jadavis/repos/bms2-sandlot/app/Http/Controllers/ESign/EDocumentController.php[D",
-				"/home/jadavis/repos/bms2-sandlot/app/bms/Repositories/ESignerRepositoryInterface.php.orig",
-				"/home/jadavis/repos/bms2-sandlot/app/Http/Controllers/ESign/ESignerController.php.orig",
-				"/home/jadavis/repos/homestead/Laravel/learning-laravel-5/app/User.php",
-				"/home/jadavis/.config/sublime-text-3/Packages/User/laravelPaths.sublime-completions"
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Listeners/Events/CreateDocumentImages.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Observers/ESignerObserver.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Http/Controllers/EventController.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Events/DocumentWasExecuted.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Services/ESignatureService.php",
+				"/home/jadavis/repos/bms2-sandlot/config/esignature.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/public/css/Default/style.css",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/resources/views/themes/Default/master.blade.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/tests/services/ESignatureServiceTest.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Http/routes.php",
+				"/home/jadavis/repos/bluemoon-production/html/products/forms_online/lease_db/esign/manager/index.php",
+				"/home/jadavis/repos/bluemoon-production/html/esign/viewer/form.php",
+				"/home/jadavis/repos/bluemoon-production/html/esign/index.php",
+				"/home/jadavis/repos/bluemoon-production/html/esign/viewer/index.php",
+				"/home/jadavis/repos/bms2-sandlot/bootstrap/ConfigureLogging.php",
+				"/home/jadavis/repos/bms2-sandlot/app/Bms/Support/AddressBuilder.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/resources/views/email/readyToExecute.blade.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/resources/views/email/executed.blade.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/resources/views/email/signature.blade.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Listeners/Events/EmailExecutedNotice.php",
+				"/home/jadavis/repos/bms2-sandlot/app/Bms/Support/Facades/Addressbuilder.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/formdesigner/src/Http/routes.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Listeners/Events/EmailSignatureNotice.php",
+				"/home/jadavis/repos/bms2-sandlot/app/Models/Model.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Listeners/Events/EmailInitialNotice.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Listeners/Events/EmailSubmissionConfirmation.php",
+				"/home/jadavis/.config/sublime-text-3/Packages/User/phpcs.sublime-settings",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Listeners/Events/QueuedListener.php",
+				"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Events/DocumentWasSigned.php",
+				"/home/jadavis/repos/bms2-sandlot/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php",
+				"/home/jadavis/repos/bms2-sandlot/composer.json"
 			],
 			"find":
 			{
-				"height": 35.0
+				"height": 70.0
 			},
 			"find_in_files":
 			{
-				"height": 93.0,
+				"height": 158.0,
 				"where_history":
 				[
+					"/home/jadavis/repos/bms-esign,-*.log",
+					"/home/jadavis/repos/bms-esign",
+					"/home/jadavis/repos/bms-esign/app",
+					"/home/jadavis/repos/bms2-sandlot",
+					"/home/jadavis/repos/bms2-sandlot/packages",
+					"/home/jadavis/repos/bms2-sandlot",
+					"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature",
+					"/home/jadavis/repos/bms2-sandlot",
+					"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/resources",
+					"/home/jadavis/repos/bms2-sandlot/",
+					"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/src/Listeners/Events",
+					"/home/jadavis/repos/bms2-sandlot/,-*.log",
+					"/home/jadavis/repos/bms2-sandlot/",
+					"/home/jadavis/repos/bms2-sandlot/ ,-PDFConv*.php",
+					"/home/jadavis/repos/bms2-sandlot/",
+					"/home/jadavis/repos/bms2-sandlot/\\",
+					"/home/jadavis/repos/bms2-sandlot/config",
+					"/home/jadavis/repos/bms2-sandlot/,-*.log",
+					"/home/jadavis/repos/bms2-sandlot/",
+					"/home/jadavis/repos/bms2-sandlot/,-*.js",
+					"/home/jadavis/repos/bms2-sandlot/,-*.js,-*.vendor",
+					"/home/jadavis/repos/bms2-sandlot/,-*.js",
+					"/home/jadavis/repos/bms2-sandlot/",
+					"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature",
+					"/home/jadavis/repos/bms2-sandlot/config",
+					"/home/jadavis/repos/bms2-sandlot/app",
+					"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/resources",
+					"/home/jadavis/repos/bms2-sandlot/packages/bluemoon",
+					"/home/jadavis/repos/bms2-sandlot/app",
+					"/home/jadavis/repos/bms2-sandlot/",
 					"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/resources/views",
 					"/home/jadavis/repos/bluemoon-production/cgi-bin/classes",
 					"/home/jadavis/repos/bms2-sandlot/packages/bluemoon/esignature/resources/views",
@@ -1417,117 +2095,167 @@
 			},
 			"find_state":
 			{
-				"case_sensitive": false,
+				"case_sensitive": true,
 				"find_history":
 				[
-					"document-breadcrumb",
-					"customer->",
-					" $",
-					"md5",
-					",(\\S)",
-					"signer",
-					"property",
-					"customer",
-					"findOrFail",
-					"esign",
-					"Model",
-					"Models",
-					"Warning",
-					"PROPERTY",
-					"CreatePROPERTYTable",
-					"Create PROPERTY",
-					"Create Property",
-					"ASSOCIATIONS",
-					"_Property",
-					"way/generators/config/config.php",
-					"vendor/way/generators/src/Way/",
-					"vendor/way/generators/src/Way/Filemove/",
-					"EDocumentRepositoryInterface",
-					"ESignerRepositoryInterface",
-					" App\\Repositories\\EDocumentRepositoryInterface",
-					"E-Signature",
-					"App\\Bms",
-					"\\t",
-					"Bms",
-					"ServiceProvider",
-					"/\",\n",
-					"});",
-					"AppServiceProvider",
-					"Controllers",
-					"App::bind",
-					"form-group",
-					"view",
-					"function getPassword",
-					"passwordSet",
-					"$this->sqlClassPath",
-					"static::$mapClass",
-					"protected static $mapClass",
-					"protected static $sqlClass",
-					"self::$sqlClass",
-					"static::$sqlClass",
-					"searchBy",
-					"getBooleanFields",
-					"static::$sqlClass",
-					"print $sql",
-					"print \\$sql",
-					"Your request did not complete",
-					"zip",
-					"address",
-					"get_all_lease_records",
-					"If you have questions about your license, please",
-					"error_log",
-					"Sent from Blue Moon Software",
-					"forms_online\\/email_customer\\.txt",
-					"forms_online/email_customer.txt",
-					"Return-Path",
-					"email_customer.txt",
-					"email_customer.php",
-					"->send(",
-					"dbClass",
-					"dbType",
-					"sqlReposType",
-					"sqlReposTypes",
-					"dbClass",
-					"setTimeout",
-					"fo_timeout.inc",
-					"logged out",
-					"sendAccountCreationEmail",
-					"Activate",
-					"account",
-					"$",
-					"Orders are usually processed",
-					"Confirmation",
-					"html",
-					"style",
-					"protected \\$sqlClass",
-					"protected $sqlClass",
-					"sqlClass",
-					"getBooleanFields",
-					"helpURL",
-					"launchHelp",
-					"Lease Guarantors",
-					"Application Forms",
-					"This record is missing information",
-					"get_class",
-					"error_log",
-					"decrypt_fields",
-					"_constr",
-					"error_log",
-					"getObjectDb",
-					"static \\$sqlClass",
-					"static $sqlClass",
-					"getUserTableByToken",
-					"setObjectDb",
-					"setDbObject",
-					"Add New User",
-					"Thank you!"
+					"WorkflowController",
+					" App\\Http\\Controllers",
+					"App\\Http",
+					"esignature::",
+					"DbESignerRepository",
+					" UnitTests",
+					"Bluemoon\\Esignature",
+					"UnitTests\\Bluemoon\\Esignature",
+					"\\Bluemoon\\Esignature",
+					"Bluemoon\\Esignature",
+					"EsignatureServiceProvider",
+					"Bluemoon\\Esignature",
+					"Esignature",
+					"Bluemoon\\/Esignature",
+					"Bluemoon/Esignature",
+					"ConfigureLogging",
+					"M_",
+					"CACHE",
+					"with no owner forms",
+					"Finished",
+					"You're Finished",
+					"tenant",
+					"tennant",
+					"Tennant",
+					"Tenant",
+					"no owner forms",
+					"contactInfo",
+					"jad<br/>Property Name<br/>123456 Taylor Draper Lane Way<br/>Scottdate, AZ 78728",
+					"Config::get",
+					"saved signature i",
+					"\"\n",
+					" \"",
+					"sendSignatureEmail",
+					"cacheKey",
+					" 10",
+					"Log",
+					"substr(",
+					"Cache",
+					"20",
+					"50",
+					"value",
+					"$_SE",
+					"ConfigureLogging",
+					"ConfigureLogs",
+					"bootstrappers",
+					"detailedFOrms",
+					"                    '",
+					"'Array",
+					"toBusinessObject",
+					"loadSignerMockData",
+					"this",
+					"        ",
+					",\\n",
+					"$index",
+					"eSigServiceMock",
+					"ESignPDF",
+					"transactions_dev1",
+					"getPageLayout",
+					"Event::fire",
+					"function",
+					"Event",
+					"this->activeSigner",
+					"this",
+					"activeSigner",
+					", ",
+					" \n",
+					"PAPERLESS",
+					"phone",
+					"    \n",
+					"'https://www.bluemoonforms.com",
+					"\\Config::get('bluemoon.legacyApp')",
+					"'https://www.bluemoonforms.com",
+					"complete",
+					"incomplete",
+					"complete",
+					"<p>\n@include('esignature::email.signerList', $signers)\n</p>",
+					"                ",
+					" \n",
+					"debug*print_r",
+					"print_r",
+					"Log::debug",
+					"Owner Rep Name Here",
+					"\n+",
+					"TMP_ESIGN_ID",
+					"dev-new",
+					"Log::warn(",
+					"__METHOD__ . \" \" . __CLASS__ . ",
+					": ",
+					"insert date of lease]",
+					"Lease Contract Documents",
+					"formthumbnail",
+					"DocumentImagesCreated",
+					"DocumentExecuted",
+					"DocumentCreated",
+					"DocumentSigned",
+					"DocumentImagesWereCreated",
+					"DocumentImagesCreated",
+					"68241583",
+					"VS2RMXlACnU6UPGIrd7hcENDrP4vSublcgvq0hSY",
+					"AKIAIL4WC2FQCPDNG7PA\nAWS_SECRET_ACCESS_KEY=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\naws_access_key_id=AKIAITONE5RI4RPCHIUQ",
+					"getemailDi",
+					"ESignerObserver",
+					"DocumentImagesCreated",
+					"DocumentWasCreated",
+					"getSignersToEmail",
+					"true",
+					"BluemoonMailService",
+					"Log::info",
+					"Searching",
+					"Log::info",
+					"g::info",
+					"int",
+					"'",
+					"+",
+					"\n+",
+					"Lease Contract Documents",
+					"Lease",
+					"process",
+					"Lease Contract Documents",
+					"[insert lease start date in this example format “Tue., Sep 15, 2015].\n",
+					"(“Lease Contract Documents”)",
+					"[",
+					"gif'",
+					"Array",
+					"/20",
+					" /20",
+					" /",
+					"/20"
 				],
 				"highlight": true,
 				"in_selection": false,
 				"preserve_case": false,
-				"regex": true,
+				"regex": false,
 				"replace_history":
 				[
+					"\\App\\Http",
+					"",
+					"App",
+					"UnitTests",
+					"App",
+					"tenant",
+					"Tenant",
+					"jobKey",
+					"",
+					",",
+					"eSignServiceMock",
+					",\\n",
+					"\\n",
+					"Pending",
+					"status",
+					"__METHOD__ .",
+					"{{ $productDocuments }}",
+					"DocumentImagesWereCreated",
+					"DocumentWasExecuted",
+					"DocumentWasCreated",
+					"DocumentWasSigned",
+					"Log::debug",
+					"MailService",
 					", $1",
 					"IEDocumentRepository",
 					"IESignerRepository",
@@ -1551,8 +2279,111 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 491,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										491,
+										491
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"auto_indent": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_width": 2,
+									"vintage":
+									{
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 0
+									},
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1562,7 +2393,7 @@
 			},
 			"input":
 			{
-				"height": 33.0
+				"height": 68.0
 			},
 			"layout":
 			{
@@ -1587,16 +2418,20 @@
 				]
 			},
 			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 168.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
-			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1719,351,2359,831,4336,1736",
-			"project": "bm2.sublime-project",
+			"pinned_build_system": "Packages/User/builds/psr2.sublime-build",
+			"position": "0,1,0,0,0,0,0,0,0,1366,768",
+			"project": "esign.sublime-project",
 			"replace":
 			{
-				"height": 64.0
+				"height": 114.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1606,516 +2441,516 @@
 				"selected_items":
 				[
 					[
-						"rou",
-						"bms2-sandlot/packages/bluemoon/esignature/src/Http/routes.php"
-					],
-					[
 						"routes",
-						"bms2-sandlot/packages/bluemoon/esignature/src/Http/routes.php"
+						"app/Http/routes.php"
 					],
 					[
-						"esigner",
-						"bms2-sandlot/packages/bluemoon/esignature/src/Models/ESigner.php"
+						"esignser",
+						"tests/bluemoon/esignature/services/ESignatureServiceTest.php"
 					],
 					[
-						"association_db",
-						"bluemoon-production/cgi-bin/classes/association_db.class.php"
+						"",
+						"app/Services/ESignatureService.php"
 					],
 					[
-						"jad/",
-						"bluemoon-production/jad/assoc_leg_test.php"
+						"dbes",
+						"app/Libraries/Repositories/DbESignerRepository.php"
 					],
 					[
-						"classes/property.class.php",
-						"bluemoon-production/cgi-bin/classes/property.class.php"
+						"confblue",
+						"config/bluemoon.php"
 					],
 					[
-						"taa_license_re",
-						"bluemoon-production/cgi-bin/classes/taa_license_renewal.class.php"
+						"configesi",
+						"config/esignature.php"
 					],
 					[
-						"workflow",
-						"bms2-sandlot/packages/bluemoon/esignature/src/Http/Controllers/WorkflowController.php"
-					],
-					[
-						".env",
-						"bms2-sandlot/.env"
-					],
-					[
-						"edocu",
-						"bms2-sandlot/packages/bluemoon/esignature/src/Models/EDocument.php"
-					],
-					[
-						"master",
-						"bms2-sandlot/resources/views/layouts/master.blade.php"
-					],
-					[
-						"routes.php",
-						"bms2-sandlot/packages/bluemoon/esignature/src/Http/routes.php"
-					],
-					[
-						"configdatabase",
-						"bms2-sandlot/config/database.php"
-					],
-					[
-						"basictest",
-						"bms2-sandlot/tests/BasicTest.php"
-					],
-					[
-						"property",
-						"bms2-sandlot/app/Models/Property.php"
-					],
-					[
-						"customer",
-						"bms2-sandlot/app/Models/Customer.php"
-					],
-					[
-						"signer.ini.php",
-						"bluemoon-production/cgi-bin/forms_online/TSSA/signers.ini.php"
-					],
-					[
-						"signers.ini.php",
-						"bluemoon-production/cgi-bin/forms_online/TSSA/signers.ini.php"
-					],
-					[
-						"signeriniphp",
-						"bluemoon-production/cgi-bin/forms_online/AANC/signers.ini.php"
-					],
-					[
-						"document.",
-						"packages/bluemoon/esignature/src/Models/EDocument.php"
-					],
-					[
-						"layouts",
-						"resources/views/layouts/header.blade.php"
-					],
-					[
-						"master.blad",
-						"resources/views/layouts/master.blade.php"
-					],
-					[
-						"rout",
-						"packages/bluemoon/esignature/src/Http/routes.php"
+						"work",
+						"app/Http/Controllers/WorkflowController.php"
 					],
 					[
 						"route",
-						"app/Http/routes.php"
+						"packages/bluemoon/formdesigner/src/Http/routes.php"
+					],
+					[
+						"workcont",
+						"app/Http/Controllers/WorkflowController.php"
+					],
+					[
+						"mailser",
+						"app/Services/MailService.php"
+					],
+					[
+						"dbesit",
+						"app/Libraries/Libraries/Repositories/DbESignerRepository.php"
+					],
+					[
+						"pdfcontest",
+						"tests/bluemoon/esignature/services/PDFConversionServiceTest.php"
+					],
+					[
+						"eventser",
+						"packages/bluemoon/esignature/src/Providers/EventServiceProvider.php"
+					],
+					[
+						"configcache",
+						"config/cache.php"
 					],
 					[
 						"configdata",
 						"config/database.php"
 					],
 					[
-						"eloquentmodel",
-						"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+						"dbde",
+						"packages/bluemoon/esignature/src/Libraries/Repositories/DbEDocumentRepository.php"
 					],
 					[
-						"illuminatedatabaseeloquenmodel",
-						"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+						"esigno",
+						"packages/bluemoon/esignature/src/Observers/ESignerObserver.php"
 					],
 					[
-						"modelesigner",
-						"packages/bluemoon/esignature/src/Models/ESigner.php"
+						"observer",
+						"packages/bluemoon/esignature/src/Observers/EDocumentObserver.php"
 					],
 					[
-						"config/app",
-						"config/app.php"
+						"edoo",
+						"packages/bluemoon/esignature/src/Observers/EDocumentObserver.php"
 					],
 					[
-						"edocument",
+						"edo",
 						"packages/bluemoon/esignature/src/Models/EDocument.php"
 					],
 					[
-						"customert",
-						"tests/CustomerTest.php"
+						"eventcon",
+						"packages/bluemoon/esignature/src/Http/Controllers/EventController.php"
 					],
 					[
-						"appmodelcustomer",
-						"app/Models/Customer.php"
+						"document",
+						"packages/bluemoon/esignature/src/Events/DocumentWasExecuted.php"
 					],
 					[
-						"customer.php",
-						"app/IbaseModels/Customer.php"
-					],
-					[
-						"composer.json",
-						"composer.json"
-					],
-					[
-						"testingtestcase",
-						"vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php"
-					],
-					[
-						"exampl",
-						"tests/ExampleTest.php"
-					],
-					[
-						"testcase",
-						"tests/TestCase.php"
-					],
-					[
-						"migratcustomer",
-						"bms2-sandlot/database/migrations/2015_08_24_153905_create_CUSTOMER_table.php"
-					],
-					[
-						"customertest",
-						"bms2-sandlot/tests/CustomerTest.php"
-					],
-					[
-						"appnamecommand",
-						"bms2-sandlot/vendor/laravel/framework/src/Illuminate/Foundation/Console/AppNameCommand.php"
-					],
-					[
-						"database",
-						"config/database.php"
-					],
-					[
-						".e",
+						".env",
 						".env"
+					],
+					[
+						"esiserpro",
+						"packages/bluemoon/esignature/src/Providers/ESignatureServiceProvider.php"
+					],
+					[
+						"esignservice",
+						"packages/bluemoon/esignature/src/Services/ESignatureService.php"
+					],
+					[
+						"ownersign",
+						"packages/bluemoon/esignature/src/Listeners/Events/SaveOwnerSignature.php"
+					],
+					[
+						"queuequeuemanager",
+						"vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php"
+					],
+					[
+						"queue",
+						"config/queue.php"
+					],
+					[
+						"configqueue",
+						"config/queue.php"
+					],
+					[
+						"phpunit",
+						"phpunit.xml"
+					],
+					[
+						"testmailser",
+						"packages/bluemoon/esignature/tests/services/MailServiceTest.php"
+					],
+					[
+						"phpunit.xml",
+						"phpunit.xml"
+					],
+					[
+						"configblu",
+						"config/bluemoon.php"
 					],
 					[
 						"configapp",
 						"config/app.php"
 					],
 					[
-						"composer",
-						"composer.json"
+						"ed",
+						"packages/bluemoon/esignature/src/Models/EDocument.php"
 					],
 					[
-						"apptemplate/mod",
-						"app/templates/model.txt"
+						"mailservi",
+						"packages/bluemoon/esignature/src/Services/MailService.php"
 					],
 					[
-						"gener",
-						"config/generators.php"
+						"esigner",
+						"packages/bluemoon/esignature/src/Models/ESigner.php"
 					],
 					[
-						"scaffoldmodel",
-						"vendor/way/generators/src/Way/Generators/templates/scaffolding/model.txt"
+						"confiesig",
+						"config/esignature.php"
 					],
 					[
-						"config/datab",
-						"config/database.php"
+						"esignservic",
+						"packages/bluemoon/esignature/src/Services/ESignatureService.php"
 					],
 					[
-						"dbesignerrepo",
-						"packages/bluemoon/esignature/src/Libraries/Repositories/DbESignerRepository.php"
+						"dbed",
+						"packages/bluemoon/esignature/src/Libraries/Repositories/DbEDocumentRepository.php"
 					],
 					[
-						"appservicep",
-						"app/Providers/AppServiceProvider.php"
+						"mailservic",
+						"packages/bluemoon/esignature/src/Services/MailService.php"
 					],
 					[
-						"configdatabas",
-						"config/database.php"
+						"mailservice",
+						"packages/bluemoon/esignature/src/Services/MailService.php"
 					],
 					[
-						"bmshelperservicep",
-						"app/Providers/BmsHelperServiceProvider.php"
+						"mailsertest",
+						"packages/bluemoon/esignature/tests/services/MailServiceTest.php"
 					],
 					[
-						"esigesigin",
-						"resources/views/esignature/esigner/index.blade.php"
+						"mail",
+						"packages/bluemoon/esignature/src/Services/MailService.php"
 					],
 					[
-						"edocumcontr",
-						"app/Http/Controllers/EDocumentController.php"
+						"execute",
+						"packages/bluemoon/esignature/resources/views/email/executed.blade.php"
 					],
 					[
-						"esignercontrol",
-						"app/Http/Controllers/ESignerController.php"
+						"mailsertes",
+						"packages/bluemoon/esignature/tests/services/MailServiceTest.php"
 					],
 					[
-						"scaffolding",
-						"vendor/way/generators/src/Way/Generators/templates/scaffolding/controller.txt"
+						"readytoexe",
+						"packages/bluemoon/esignature/resources/views/email/readyToExecute.blade.php"
 					],
 					[
-						"esignercon",
-						"app/Http/Controllers/ESignerController.php"
+						"singblade",
+						"packages/bluemoon/esignature/resources/views/email/signature.blade.php"
 					],
 					[
-						"dbesigner",
-						"app/Repositories/DbESignerRepository.php"
+						"add",
+						"app/Bms/Support/AddressBuilder.php"
 					],
 					[
-						"dbedo",
-						"app/Repositories/DbEDocumentRepository.php"
+						"esresviewemsign",
+						"packages/bluemoon/esignature/resources/views/email/signature.blade.php"
 					],
 					[
-						"appedocu",
-						"app/EDocument.php"
+						"esiresrouviewemail",
+						"packages/bluemoon/esignature/resources/views/email/executed.blade.php"
 					],
 					[
-						"genertempcon",
-						"vendor/way/generators/src/Way/Generators/templates/controller.txt"
+						"mailservicetest",
+						"packages/bluemoon/esignature/tests/services/MailServiceTest.php"
 					],
 					[
-						"templatescaffcont",
-						"vendor/way/generators/src/Way/Generators/templates/scaffolding/controller.txt"
+						"mailservictes",
+						"packages/bluemoon/esignature/tests/services/MailServiceTest.php"
 					],
 					[
-						"edo",
-						"app/Http/Controllers/EDocumentController.php"
+						"eventcontr",
+						"packages/bluemoon/esignature/src/Http/Controllers/EventController.php"
 					],
 					[
-						"",
-						"app/Http/Controllers/ESignerController.php"
+						"blu",
+						"config/bluemoon.php"
 					],
 					[
-						"dbesi",
-						"app/Repositories/DbESignerRepository.php"
+						"mailse",
+						"packages/bluemoon/esignature/src/Services/MailService.php"
 					],
 					[
-						"comp",
-						"composer.json"
+						"rout",
+						"packages/bluemoon/esignature/src/Http/routes.php"
 					],
 					[
-						"vendocompoautorea",
-						"vendor/composer/autoload_real.php"
+						"evencon",
+						"packages/bluemoon/esignature/src/Http/Controllers/EventController.php"
 					],
 					[
-						"bmsdb",
-						"app/Bms/Repositories/DbESignerRepository.php"
+						"evenserpr",
+						"packages/bluemoon/esignature/src/Providers/EventServiceProvider.php"
 					],
 					[
-						"appcontesi",
-						"app/Http/Controllers/ESignerController.php"
+						"event",
+						"packages/bluemoon/esignature/src/Http/Controllers/EventController.php"
 					],
 					[
 						"edocum",
-						"app/Http/Controllers/ESign/EDocumentController.php"
+						"packages/bluemoon/esignature/src/Models/EDocument.php"
 					],
 					[
-						"bmsrepos",
-						"app/bms/Repositories/DbESignerRepository.php"
+						"esignob",
+						"packages/bluemoon/esignature/src/Observers/ESignerObserver.php"
 					],
 					[
-						"artcon",
-						"app/Http/Controllers/ArticlesController.php"
+						"eventserpr",
+						"packages/bluemoon/esignature/src/Providers/EventServiceProvider.php"
 					],
 					[
-						"article.php",
-						"app/Article.php"
+						"emasu",
+						"packages/bluemoon/esignature/src/Listeners/Events/EmailSubmissionConfirmation.php"
 					],
 					[
-						"_form",
-						"resources/views/articles/_form.blade.php"
+						"esiob",
+						"packages/bluemoon/esignature/src/Observers/ESignerObserver.php"
 					],
 					[
-						"articles.blade",
-						"resources/views/articles/create.blade.php"
+						"edocob",
+						"packages/bluemoon/esignature/src/Observers/EDocumentObserver.php"
 					],
 					[
-						"articlcont",
-						"app/Http/Controllers/ArticlesController.php"
+						"cre",
+						"packages/bluemoon/esignature/src/Listeners/Events/CreateDocumentImages.php"
 					],
 					[
-						"migrationsmigra",
-						"vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php"
+						"queli",
+						"packages/bluemoon/esignature/src/Listeners/Events/QueuedListener.php"
 					],
 					[
-						"create.blad",
-						"resources/views/articles/create.blade.php"
+						"queueli",
+						"packages/bluemoon/esignature/src/Listeners/Events/QueuedListener.php"
 					],
 					[
-						"create",
-						"resources/views/articles/create.blade.php"
+						"emaiinino",
+						"packages/bluemoon/esignature/src/Listeners/Events/EmailInitialNotice.php"
 					],
 					[
-						"app.blade",
-						"resources/views/app.blade.php"
+						"rou",
+						"packages/bluemoon/esignature/src/Http/routes.php"
 					],
 					[
-						"app",
-						"config/app.php"
+						"evserpr",
+						"packages/bluemoon/esignature/src/Providers/EventServiceProvider.php"
 					],
 					[
-						"articinde",
-						"resources/views/articles/index.blade.php"
+						"evenserpro",
+						"packages/bluemoon/esignature/src/Providers/EventServiceProvider.php"
 					],
 					[
-						"articon",
-						"app/Http/Controllers/ArticleController.php"
+						"dbedo",
+						"packages/bluemoon/esignature/src/Libraries/Repositories/DbEDocumentRepository.php"
 					],
 					[
-						"artindex",
-						"resources/views/articles/index.blade.php"
+						"emailininot",
+						"packages/bluemoon/esignature/src/Listeners/Events/EmailInitialNotice.php"
 					],
 					[
-						"wel",
-						"resources/views/welcome.blade.php"
+						".",
+						".env"
 					],
 					[
-						"arti",
-						"app/Http/Controllers/ArticlesController.php"
+						"appkerne",
+						"app/Console/Kernel.php"
 					],
 					[
-						"routes.",
-						"app/Http/routes.php"
+						"composer.json",
+						"composer.json"
 					],
 					[
-						"objectdb",
-						"lib/Db/class.ObjectDb.php"
+						"configure",
+						"vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/ConfigureLogging.php"
 					],
 					[
-						"maplocal",
-						"lib/FieldMap/class.MapLocalAssociation.php"
+						"confidatabase",
+						"config/database.php"
 					],
 					[
-						"sqllocal",
-						"lib/Sql/class.SqlLocalAssociation.php"
+						"esig",
+						"packages/bluemoon/esignature/src/Services/ESignatureService.php"
 					],
 					[
-						"sqloffice",
-						"lib/Sql/class.SqlOfficeObject.php"
+						"edocument",
+						"packages/bluemoon/esignature/src/Models/EDocument.php"
 					],
 					[
-						"sqlassocuser",
-						"lib/Sql/class.SqlAssociationUser.php"
+						"dbedocum",
+						"packages/bluemoon/esignature/src/Libraries/Repositories/DbEDocumentRepository.php"
 					],
 					[
-						"business",
-						"lib/class.BusinessObject.php"
+						"dbe",
+						"packages/bluemoon/esignature/src/Libraries/Repositories/DbESignerRepository.php"
 					],
 					[
-						"localasso",
-						"lib/LocalAssociation/class.LocalAssociation.php"
+						"esigser",
+						"packages/bluemoon/esignature/src/Services/ESignatureService.php"
 					],
 					[
-						"db.class.php",
-						"cgi-bin/classes/db.class.php"
+						"esignsertes",
+						"packages/bluemoon/esignature/tests/services/ESignatureServiceTest.php"
 					],
 					[
-						"object",
-						"lib/Db/class.ObjectDb.php"
+						"edocu",
+						"packages/bluemoon/esignature/src/Models/EDocument.php"
 					],
 					[
-						"factory",
-						"lib/User/class.UserFactory.php"
+						"esigneser",
+						"packages/bluemoon/esignature/src/Services/ESignatureService.php"
 					],
 					[
-						"class.userfactory",
-						"lib/User/class.UserFactory.php"
+						"esigsertescase",
+						"packages/bluemoon/esignature/tests/ESignatureTestCase.php"
 					],
 					[
-						"class.assoc",
-						"bluemoon-production/lib/User/class.AssociationUser.php"
+						"mai",
+						"packages/bluemoon/esignature/src/Services/MailService.php"
 					],
 					[
-						"sqlemailuser",
-						"bluemoon-production/lib/Sql/class.SqlEmailUser.php"
+						"edocumen",
+						"packages/bluemoon/esignature/src/Models/EDocument.php"
 					],
 					[
-						"sqlassociation",
-						"bluemoon-production/lib/Sql/class.SqlAssociationUser.php"
+						"esite",
+						"packages/bluemoon/esignature/tests/ESignatureTestCase.php"
 					],
 					[
-						"class.email",
-						"bluemoon-production/lib/User/class.EmailUser.php"
+						"esigtestcase",
+						"packages/bluemoon/esignature/tests/ESignatureTestCase.php"
 					],
 					[
-						"class.user.ph",
-						"bluemoon-production/lib/User/class.User.php"
+						"esigsertest",
+						"packages/bluemoon/esignature/tests/services/ESignatureServiceTest.php"
 					],
 					[
-						"class.user.php",
-						"bluemoon-production/lib/User/class.User.php"
+						"workflowcontr",
+						"packages/bluemoon/esignature/src/Http/Controllers/WorkflowController.php"
 					],
 					[
-						"modtemppas",
-						"bluemoon-sql/html/modules/templates/PasswordReset/index.phtml"
+						"maiserute",
+						"packages/bluemoon/esignature/tests/services/MailServiceUnitTest.php"
 					],
 					[
-						"modtemppasin",
-						"bluemoon-production/html/modules/templates/PasswordReset/index.phtml"
+						"msut",
+						"packages/bluemoon/esignature/tests/services/MailServiceUnitTest.php"
 					],
 					[
-						"modutemppassword",
-						"html/modules/templates/PasswordReset/index.phtml"
+						"esitescas",
+						"packages/bluemoon/esignature/tests/ESignatureTestCase.php"
 					],
 					[
-						"class.login",
-						"html/modules/controllers/class.Login.php"
+						"edoc",
+						"packages/bluemoon/esignature/src/Models/EDocument.php"
 					],
 					[
-						"login.php",
-						"cgi-bin/products/forms_online/login.php"
+						"venphpphpsrfrtestcase",
+						"vendor/phpunit/phpunit/src/Framework/TestCase.php"
 					],
 					[
-						"businessobject",
-						"lib/class.BusinessObject.php"
+						"signa",
+						"packages/bluemoon/esignature/resources/views/email/signature.blade.php"
 					],
 					[
-						"passwordreset",
-						"html/modules/controllers/class.PasswordReset.php"
+						"signature.blad",
+						"packages/bluemoon/esignature/resources/views/email/signature.blade.php"
 					],
 					[
-						"class.user.",
-						"lib/User/class.User.php"
+						"addressb",
+						"app/Bms/Support/AddressBuilder.php"
 					],
 					[
-						"sqlenter",
-						"lib/Sql/class.SqlEnterpriseUser.php"
+						"appmail",
+						"app/Services/MailService.php"
 					],
 					[
-						"sqlenterpr",
-						"lib/Sql/class.SqlEnterpriseUser.php"
+						"documentwas",
+						"packages/bluemoon/esignature/src/Events/DocumentWasExecuted.php"
 					],
 					[
-						"enterpriseuse",
-						"lib/User/class.EnterpriseUser.php"
+						"saveow",
+						"packages/bluemoon/esignature/src/Listeners/Events/SaveOwnerSignature.php"
 					],
 					[
-						"classpasswo",
-						"html/modules/controllers/class.PasswordReset.php"
+						"dbesi",
+						"packages/bluemoon/esignature/src/Libraries/Repositories/DbESignerRepository.php"
 					],
 					[
-						"formsonlineuser",
-						"lib/User/class.FormsOnlineUser.php"
+						"workflowcont",
+						"packages/bluemoon/esignature/src/Http/Controllers/WorkflowController.php"
 					],
 					[
-						"userfactory",
-						"lib/User/class.UserFactory.php"
+						".e",
+						".env"
 					],
 					[
-						"userfac",
-						"lib/User/class.UserFactory.php"
+						"configsession",
+						"config/session.php"
 					],
 					[
-						"sqlassoc",
-						"lib/Sql/class.SqlAssociationUser.php"
+						"configsessions",
+						"vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/SessionStorageInterface.php"
 					],
 					[
-						"mapassociation",
-						"lib/FieldMap/class.MapAssociationUser.php"
+						"masetes",
+						"packages/bluemoon/esignature/tests/services/MailServiceTest.php"
 					],
 					[
-						"sqlasso",
-						"lib/Sql/class.SqlAssociationUser.php"
+						"esise",
+						"packages/bluemoon/esignature/src/Services/ESignatureService.php"
 					],
 					[
-						"db.class",
-						"cgi-bin/classes/db.class.php"
+						"esservt",
+						"packages/bluemoon/esignature/tests/services/ESignatureServiceTest.php"
 					],
 					[
-						"objectdb.php",
-						"lib/Db/class.ObjectDb.php"
+						"esserv",
+						"packages/bluemoon/esignature/src/Services/ESignatureService.php"
 					],
 					[
-						"mysql.class.php",
-						"cgi-bin/classes/mysql.class.php"
+						"eobserver",
+						"packages/bluemoon/esignature/src/Observers/EDocumentObserver.php"
 					],
 					[
-						"sqloffi",
-						"lib/Sql/class.SqlOfficeObject.php"
+						"configesig",
+						"config/esignature.php"
 					],
 					[
-						"sqlofficeobject",
-						"tests/unit/Sql/SqlOfficeObjectTest.php"
+						"esignsertest",
+						"packages/bluemoon/esignature/tests/services/ESignatureServiceTest.php"
 					],
 					[
-						"sqlassociaion",
-						"lib/Sql/class.SqlAssociationUser.php"
+						"svg",
+						"packages/bluemoon/esignature/src/Services/SVGFontService.php"
+					],
+					[
+						"esigservictest",
+						"packages/bluemoon/esignature/tests/services/ESignatureServiceTest.php"
+					],
+					[
+						"esob",
+						"packages/bluemoon/esignature/src/Observers/ESignerObserver.php"
+					],
+					[
+						"confiesi",
+						"config/esignature.php"
+					],
+					[
+						"svgf",
+						"packages/bluemoon/esignature/src/Services/SVGFontService.php"
+					],
+					[
+						"conesignat",
+						"config/esignature.php"
+					],
+					[
+						"esign",
+						"packages/bluemoon/esignature/src/Services/ESignatureService.php"
+					],
+					[
+						"eventc",
+						"packages/bluemoon/esignature/src/Http/Controllers/EventController.php"
+					],
+					[
+						"eventconr",
+						"packages/bluemoon/esignature/src/Http/Controllers/EventController.php"
+					],
+					[
+						"workfl",
+						"packages/bluemoon/esignature/src/Http/Controllers/WorkflowController.php"
 					]
 				],
 				"width": 0.0
@@ -2131,10 +2966,302 @@
 			},
 			"select_symbol":
 			{
-				"height": 75.0,
-				"last_filter": "findOrFail",
+				"height": 354.0,
+				"last_filter": "esigno",
 				"selected_items":
 				[
+					[
+						"esigno",
+						"ESignerObserver"
+					],
+					[
+						"edoc",
+						"EDocumentObserver"
+					],
+					[
+						"docwasexe",
+						"DocumentWasExecuted"
+					],
+					[
+						"mailser",
+						"MailServiceTest"
+					],
+					[
+						"getemaili",
+						"testGetEmailDictionaryResident"
+					],
+					[
+						"app\\http\\con",
+						"App\\Http\\Controllers"
+					],
+					[
+						"appser",
+						"AppServiceProvider"
+					],
+					[
+						"workflo",
+						"setWorkFlowGuidelines"
+					],
+					[
+						"testmailser",
+						"testMailServiceCreation"
+					],
+					[
+						"esignuseim",
+						"ESignUseImages"
+					],
+					[
+						"esignsertest",
+						"ESignatureServiceTest"
+					],
+					[
+						"mailsertes",
+						"MailServiceTest"
+					],
+					[
+						"esignertest",
+						"ESignerTest"
+					],
+					[
+						"Edocumenttest",
+						"EDocumentTest"
+					],
+					[
+						"ESignaturetest",
+						"ESignatureTestCase"
+					],
+					[
+						"saves",
+						"saveSignatureInitials"
+					],
+					[
+						"save",
+						"SaveOwnerSignature"
+					],
+					[
+						"savesig",
+						"saveSignatureInitials"
+					],
+					[
+						"savesiini",
+						"saveSignatureInitials"
+					],
+					[
+						"createdocumentimages",
+						"CreateDocumentImages"
+					],
+					[
+						"gettenant",
+						"getLeaseTenants"
+					],
+					[
+						"emailexe",
+						"EmailExecutedNotice"
+					],
+					[
+						"testgetemail",
+						"testGetEmailDictionaryResident"
+					],
+					[
+						"mailsertest",
+						"MailServiceTest"
+					],
+					[
+						"testGetEmail",
+						"testGetEmailDictionaryResident"
+					],
+					[
+						"sendex",
+						"sendExecutedEmail"
+					],
+					[
+						"docwasex",
+						"DocumentWasExecuted"
+					],
+					[
+						"savesi",
+						"saveSignatureInitials"
+					],
+					[
+						"docuwase",
+						"DocumentWasExecuted"
+					],
+					[
+						"doecwasex",
+						"DocumentWasExecuted"
+					],
+					[
+						"configurel",
+						"ConfigureLogging"
+					],
+					[
+						"saveowne",
+						"SaveOwnerSignature"
+					],
+					[
+						"saveo",
+						"SaveOwnerSignature"
+					],
+					[
+						"emailsig",
+						"EmailSignatureNotice"
+					],
+					[
+						"sendsig",
+						"sendSignatureEmail"
+					],
+					[
+						"documentwasSi",
+						"DocumentWasSigned"
+					],
+					[
+						"useDailyFiles",
+						"useDailyFiles"
+					],
+					[
+						"sendSign",
+						"sendSignatureEmail"
+					],
+					[
+						"edocumentob",
+						"EDocumentObserver"
+					],
+					[
+						"testgetsignermod",
+						"testGetSignerModelByObject"
+					],
+					[
+						"getDocument",
+						"getDocument"
+					],
+					[
+						"isexecu",
+						"isExecutable"
+					],
+					[
+						"testisexe",
+						"testIsExecutableDocument"
+					],
+					[
+						"getemail",
+						"getEmailDictionary"
+					],
+					[
+						"createDocumentMock",
+						"createDocumentMock"
+					],
+					[
+						"testgetsigtoemai",
+						"testGetSignersToEmail"
+					],
+					[
+						"createdocmomock",
+						"createDocumentModelMock"
+					],
+					[
+						"getemaild",
+						"getEmailDictionary"
+					],
+					[
+						"getemdicre",
+						"testGetEmailDictionaryResident"
+					],
+					[
+						"testGetEamil",
+						"testGetEmailDictionaryResident"
+					],
+					[
+						"getEmail",
+						"getEmailDictionary"
+					],
+					[
+						"sendsu",
+						"sendSubmittedEmail"
+					],
+					[
+						"testsendsigemail",
+						"testSendSignatureEmail"
+					],
+					[
+						"testsensig",
+						"testSendSignatureEmail"
+					],
+					[
+						"sendSi",
+						"sendSignatureEmail"
+					],
+					[
+						"getNextS",
+						"getNextSigner"
+					],
+					[
+						"sendS",
+						"sendSignatureEmail"
+					],
+					[
+						"getemdi",
+						"getEmailDictionary"
+					],
+					[
+						"emaild",
+						"getEmailDictionary"
+					],
+					[
+						"readytoexe",
+						"sendReadyToExecute"
+					],
+					[
+						"sendsub",
+						"sendSubmittedEmail"
+					],
+					[
+						"emailsu",
+						"EmailSubmissionConfirmation"
+					],
+					[
+						"savesign",
+						"saveSignatureInitials"
+					],
+					[
+						"reset",
+						"reset"
+					],
+					[
+						"sendSu",
+						"sendSubmittedEmail"
+					],
+					[
+						"emaildi",
+						"getEmailDictionary"
+					],
+					[
+						"saveown",
+						"SaveOwnerSignature"
+					],
+					[
+						"emailDic",
+						"getEmailDictionary"
+					],
+					[
+						"getemaildicti",
+						"getEmailDictionary"
+					],
+					[
+						"buildFormLayou",
+						"buildFormLayoutForSigner"
+					],
+					[
+						"getById",
+						"getById"
+					],
+					[
+						"FormDesi",
+						"FormDesigner"
+					],
+					[
+						"isAlias",
+						"isAlias"
+					],
 					[
 						"findOrFail",
 						"findOrFail"
@@ -2152,15 +3279,15 @@
 						"Model"
 					]
 				],
-				"width": 1259.0
+				"width": 803.0
 			},
 			"selected_group": 0,
 			"settings":
 			{
-				"_vintageous_last_buffer_search": "tenn",
+				"_vintageous_last_buffer_search": "signature",
 				"_vintageous_last_buffer_search_command": "vi_slash",
-				"_vintageous_last_char_search_command": "vi_t",
-				"_vintageous_last_character_search": "_",
+				"_vintageous_last_char_search_command": "vi_f",
+				"_vintageous_last_character_search": "f",
 				"_vintageous_reset_during_init": true,
 				"last_automatic_layout":
 				[
@@ -2173,32 +3300,34 @@
 				],
 				"vintage":
 				{
-					"_cmdline_cd": "/home/jadavis/repos/bluemoon-production/cgi-bin/classes"
+					"_cmdline_cd": "/opt/sublime_text"
 				}
 			},
 			"show_minimap": false,
 			"show_open_files": false,
-			"show_tabs": false,
-			"side_bar_visible": false,
-			"side_bar_width": 335.0,
-			"status_bar_visible": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 329.0,
+			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 11,
-			"workspace_name": "/home/jadavis/repos/bm2.sublime-workspace"
+			"window_id": 40,
+			"workspace_name": "/home/jadavis/repos/esign.sublime-workspace"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
+			"/home/jadavis/repos/esign.sublime-workspace",
 			"/home/jadavis/repos/bm2.sublime-workspace",
 			"/home/jadavis/repos/bm1.sublime-workspace",
-			"/home/jadavis/repos/bms2-sandlot/config/bluemoon.sublime-workspace",
-			"/home/jadavis/repos/bluemoon-production/html/products/forms_online/assoc_forms/modules/Association/history.sublime-workspace",
 			"/home/jadavis/repos/structure.sublime-workspace",
 			"/home/jadavis/repos/laravel.sublime-workspace",
+			"/home/jadavis/repos/bluemoon-production/html/products/forms_online/assoc_forms/modules/Association/index.sublime-workspace",
+			"/home/jadavis/repos/bms2-sandlot/config/bluemoon.sublime-workspace",
+			"/home/jadavis/repos/bluemoon-production/html/products/forms_online/assoc_forms/modules/Association/history.sublime-workspace",
 			"/home/jadavis/repos/eloquent-series.sublime-workspace",
 			"/home/jadavis/repos/deployment-mgr.sublime-workspace"
 		]

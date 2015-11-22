@@ -1,11 +1,14 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"All Autocomplete",
 		"Blade Spacer",
+		"BracketHighlighter",
 		"Colorsublime",
 		"DocBlockr",
 		"GitGutter",
@@ -20,12 +23,16 @@
 		"PHP Getters and Setters",
 		"Phpcs",
 		"PhpDoc",
+		"PhpSimpleRefactor",
+		"PHPUnit",
+		"PHPUnit Snippets",
 		"ScopeAlways",
 		"SimplePHPUnit",
 		"SublimeLinter",
 		"SublimeLinter-php",
 		"SublimeLinter-phpcs",
 		"SublimeLinter-phplint",
+		"SublimeLinter-phpmd",
 		"Sublimerge Pro",
 		"Vintageous"
 	]
