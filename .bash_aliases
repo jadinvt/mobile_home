@@ -114,10 +114,10 @@ export PS1=$Color_Off'$(git branch &>/dev/null;\
         echo "$(echo `git status` | grep "nothing to commit" > /dev/null 2>&1; \
         if [ "$?" -eq "0" ]; then \
 # @4 - Clean repository - nothing to commit
-        echo "'$Green'"\(${git_prompt:0:15}\);\
+        echo "'$Green'"\(${git_prompt:0:21}\);\
         else \
 # @5 - Changes to working tree
-        echo "'$IRed'"\{${git_prompt:0:15}\};\
+        echo "'$IRed'"\{${git_prompt:0:21}\};\
         fi) '$BYellow$PathShort$Color_Off' ";\
         else \
 # @2 - Prompt when not in GIT repo
@@ -128,3 +128,12 @@ export PS1="$PS1\[\033[1;32m\]"
 #export PS1='\[\033[01;31m\]\w\[\033[00m\]\n${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\u\[\033[01;32m\]@\[\033[01;34m\]\h\[\033[00m\]\$ '
 export EDITOR=vim
 alias config='git --git-dir=/home/jadavis/.config.git/ --work-tree=/home/jadavis'
+
+mygrants()
+{
+      mysql -B -N $@ -e "SELECT DISTINCT CONCAT(
+          'SHOW GRANTS FOR \'', user, '\'@\'', host, '\';'
+              ) AS query FROM mysql.user" | \
+                mysql $@ | \
+                  sed 's/\(GRANT .*\)/\1;/;s/^\(Grants for .*\)/## \1 ##/;/##/{x;p;x;}'
+}

@@ -3,10 +3,11 @@
 # for examples
 #
 alias vi='vim'
+alias tmux='tmux-next'
 
 # Timestamp history
 export HISTTIMEFORMAT='%F %T '
-export HISTFILE="${HOME}/.history/$(date -u +%Y/%m/%d.%H.%M.%S)_${HOSTNAME_SHORT}_$$"
+#export HISTFILE="${HOME}/.history/$(date -u +%Y/%m/%d.%H.%M.%S)_${HOSTNAME_SHORT}_$$"
 
 # for virtualenv
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
@@ -136,7 +137,19 @@ export PATH=$PATH:$HOME/bin:$HOME/.composer/vendor/bin
 if [ -f ~/.bashrc_local ]; then
     source ~/.bashrc_local
 fi
-
 if [ -f ~/.git-completion.bash ]; then
     . ~/.git-completion.bash
 fi
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+eval "$(direnv hook bash)"
+
+function showTags()
+{
+    for x in $(git tag -l); do
+        printf "\n\n$x\n"
+        echo "$(git log $TAG..$x --merges --oneline)"
+        echo "$(git log $TAG..$x --no-merges --first-parent --oneline)"
+        TAG=$x
+    done
+}
