@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>Globals</string>
+    <key>scope</key>
+    <string></string>
+    <key>settings</key>
+    <dict>
+        <key>shellVariables</key>
+        <array>
+            <dict>
+                <key>name</key>
+                <string>TM_FULLNAME</string>
+                <key>value</key>
+                <string><![CDATA[Jad Davis]]></string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>TM_EMAIL</string>
+                <key>value</key>
+                <string><![CDATA[<jad@bluemoonforms.com>]]></string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>TM_ORGANIZATION_NAME</string>
+                <key>value</key>
+                <string><![CDATA[Blue Moon Software]]></string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>TM_YEAR</string>
+                <key>value</key>
+                <string><![CDATA[2016]]></string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>TM_VERSION</string>
+                <key>value</key>
+                <string><![CDATA[2.0]]></string>
+            </dict>
+        </array>
+    </dict>
+    <key>uuid</key>
+    <string>0ef293cd-943a-4fb0-b43d-65959c5e6b06</string>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+/**
+* ${1:$TM_FILENAME}
+*
+* ${2:detail}
+*
+* Date Doc'd: $TM_YEAR/${3:04}/${4:21}
+* @package  ${5:App}
+* @author   $TM_FULLNAME $TM_EMAIL
+* @version  $TM_VERSION
+*/
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>hh</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

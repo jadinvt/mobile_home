@@ -1,5 +1,9 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Facebook (SL).tmTheme",
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 0,
+	"caret_extra_width": 2,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"detect_indentation": false,
 	"folder_exclude_patterns":
 	[
@@ -9,8 +13,10 @@
 		"CVS",
 		"bms2-sandlot/tests/bluemoon"
 	],
+	"font_size": 10,
 	"ignored_packages":
 	[
+		"Phpcs",
 		"Sublimerge Pro"
 	],
 	"indent_guide_options":
@@ -30,7 +36,7 @@
 	],
 	"show_panel_on_build": false,
 	"tab_size": 4,
-	"theme": "Material-Theme.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": false,
 	"vintage_ctrl_keys": true,

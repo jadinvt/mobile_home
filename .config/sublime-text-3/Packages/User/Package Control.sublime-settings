@@ -7,19 +7,24 @@
 	[
 		"AdvancedNewFile",
 		"All Autocomplete",
-		"Blade Spacer",
+		"AngularJS",
+		"Blade Snippets",
 		"BracketHighlighter",
+		"Color Highlighter",
 		"Colorsublime",
 		"DocBlockr",
 		"GitGutter",
 		"Horizontal Scroll",
+		"ImprovedMacros",
 		"Laravel 5 Artisan",
 		"Laravel 5 Snippets",
 		"Laravel Blade Highlighter",
+		"Laravel Blade Spacer",
 		"Material Theme",
 		"Package Control",
 		"PackageResourceViewer",
 		"PHP Companion",
+		"PHP Completions Kit",
 		"PHP Getters and Setters",
 		"Phpcs",
 		"PhpDoc",
@@ -35,5 +40,9 @@
 		"SublimeLinter-phpmd",
 		"Sublimerge Pro",
 		"Vintageous"
+	],
+	"repositories":
+	[
+		"https://github.com/skuroda/ImprovedMacros"
 	]
 }

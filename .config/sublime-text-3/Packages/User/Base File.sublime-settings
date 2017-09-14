@@ -1,0 +1,6 @@
+{
+  "jsdocs_autoadd_method_tag": true,
+  "jsdocs_extra_tags": ["@author Jad <jad@bluemoonforms.com>"],
+  "jsdocs_align_tags": "shallow",
+  "jsdocs_indentation_spaces_same_para": 0,
+}
